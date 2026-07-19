@@ -1,0 +1,12 @@
+document: teacher
+title: Guida docente
+sections:
+  - case_overview
+  - learning_objectives
+  - materials_list
+  - setup_instructions
+  - timeline
+  - expected_solution
+  - debrief_questions
+  - real_world_connection
+  - safety_notes

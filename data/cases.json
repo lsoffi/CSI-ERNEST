@@ -1,0 +1,33 @@
+[
+  {
+    "case_id": "CSI-001",
+    "title": "L'orologio del museo",
+    "age_group": "11-13 anni",
+    "physics_topic": "Moto periodico del pendolo: osservare come cambia il tempo di oscillazione quando si modificano le condizioni del pendolo. Per confrontare bene i dati servono misure ripetute, una sola variabile cambiata alla volta e angoli iniziali piccoli.",
+    "cover_image": "",
+    "mystery": "L'antico orologio a pendolo del museo ha iniziato a perdere minuti proprio la notte prima dell'apertura di una nuova sala. Il meccanismo non sembra rotto: qualcosa nella scena potrebbe aver cambiato il ritmo del pendolo senza lasciare un danno evidente.",
+    "story_intro": "Alle 9:00 la curatrice scopre che l'orologio segna 12 minuti in meno. Accanto alla cassa ci sono alcuni piccoli pesi metallici, un filo con nodi e tacche a distanze diverse, segni di nastro sul pavimento e un cartoncino con tre piccoli archi disegnati vicino alla base dell'orologio. Un cartello della mostra e' caduto: potrebbe essere un indizio, oppure solo confusione da allestimento.",
+    "scene_evidence": "Un pendolo lungo, alcuni pesi metallici di dimensioni diverse, un filo con nodi e tacche, segni di nastro sul pavimento, tre piccoli archi disegnati su un cartoncino, un cartello caduto, una matita vicino alla cassa e un biglietto con scritto: 'Non toccare l'orologio prima dell'apertura'.",
+    "witness_1": "La curatrice dice che ieri sera l'orologio era perfettamente in orario e che il pendolo oscillava con un'ampiezza piccola e regolare.",
+    "witness_2": "La guardia notturna racconta di aver sentito un ticchettio piu' lento dopo lo spostamento della teca, ma non ha visto nessuno aprire la cassa dell'orologio.",
+    "witness_3": "Una volontaria dice di aver raccolto alcuni pesetti caduti e di aver segnato sul banco delle posizioni di partenza per non tirare troppo il pendolo.",
+    "mission": "Scoprite quale modifica puo' aver rallentato l'orologio. Decidete quali grandezze confrontare, cambiate una sola condizione alla volta e misurate il periodo usando il tempo di 10 oscillazioni. Per i confronti usate angoli iniziali piccoli.",
+    "hypothesis_1": "Il pendolo e' diventato piu' lungo.",
+    "hypothesis_2": "Il pendolo e' diventato piu' corto.",
+    "hypothesis_3": "Qualcuno ha spostato le lancette.",
+    "variable_changed": "Condizione scelta per il confronto: peso, angolo iniziale o lunghezza del filo",
+    "quantity_measured": "Periodo del pendolo, ricavato dal tempo per 10 oscillazioni",
+    "expected_graph": "Grafico della condizione scelta vs periodo del pendolo",
+    "graph_shape": "Il periodo cambia chiaramente con la lunghezza; resta quasi uguale cambiando il peso o piccoli angoli iniziali",
+    "materials": "Filo regolabile, piccoli pesi diversi, cronometro, righello o metro, nastro adesivo, cartoncino con riferimenti per piccoli angoli, matita, tabella dati",
+    "teacher_solution": "Il periodo del pendolo dipende soprattutto dalla lunghezza del filo. A parita' di lunghezza e per angoli iniziali piccoli, cambiare il peso o piccoli angoli di partenza non dovrebbe modificare molto il periodo. Se l'orologio ha rallentato, l'ipotesi piu' coerente e' che la lunghezza effettiva del pendolo sia aumentata.",
+    "educational_message": "Un orologio a pendolo misura il tempo grazie a un moto regolare. Cambiare una variabile puo' cambiare il ritmo di tutto il sistema.",
+    "real_world_connection": "Il moto periodico e' importante negli orologi, nei sensori, nelle dimostrazioni sui terremoti e in molti strumenti scientifici.",
+    "step_1_observe": "Osservate la scena e cerchiate gli indizi che potrebbero influenzare il movimento.",
+    "step_2_hypothesize": "Scegliete l'ipotesi piu' forte e individuate quali condizioni del pendolo potrebbero essere confrontate con una misura.",
+    "step_3_experiment": "Cambiate una sola condizione alla volta e mantenete uguali le altre. Usate angoli iniziali piccoli e lasciate andare il pendolo senza spingerlo.",
+    "step_4_record_data": "Misurate il tempo di 10 oscillazioni per ogni confronto, ripetete la misura e ricavate il periodo dividendo per 10.",
+    "step_5_build_graph": "Disegnate il grafico mettendo sull'asse x la condizione scelta e sull'asse y il periodo del pendolo.",
+    "step_6_conclusion": "Usate grafico e indizi per arrivare alla conclusione finale."
+  }
+]

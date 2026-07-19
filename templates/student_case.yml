@@ -1,0 +1,11 @@
+document: student
+title: Fascicolo studenti
+pages:
+  - cover
+  - incident_report
+  - evidence_log
+  - experiment_1
+  - experiment_2
+  - experiment_3
+  - evidence_analysis
+  - final_report
