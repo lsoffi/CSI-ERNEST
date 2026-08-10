@@ -1,0 +1,51 @@
+event_id,channel,decay_possibility,product_charges,mass_GeV
+EV001,4mu,4 muoni,mu+ mu+ mu- mu-,124.7
+EV002,4mu,4 muoni,mu+ mu+ mu- mu-,91.3
+EV003,4mu,4 muoni,mu+ mu+ mu- mu-,116.8
+EV004,4mu,4 muoni,mu+ mu+ mu- mu-,125.6
+EV005,4mu,4 muoni,mu+ mu+ mu+ mu-,128.2
+EV006,4mu,4 muoni,mu+ mu- mu- mu-,133.9
+EV007,4mu,4 muoni,mu+ mu+ mu- mu-,142.4
+EV008,4mu,4 muoni,mu+ mu+ mu- mu-,124.1
+EV009,4mu,4 muoni,mu+ mu- mu- mu-,126.8
+EV010,4mu,4 muoni,mu+ mu+ mu- mu-,108.6
+EV011,4mu,4 muoni,mu+ mu+ mu- mu-,156.1
+EV012,4mu,4 muoni,mu+ mu+ mu- mu-,101.4
+EV013,2mu2e,2 muoni + 2 elettroni,mu+ mu- e+ e-,125.2
+EV014,2mu2e,2 muoni + 2 elettroni,mu+ mu- e+ e-,88.5
+EV015,2mu2e,2 muoni + 2 elettroni,mu+ mu- e+ e-,121.9
+EV016,2mu2e,2 muoni + 2 elettroni,mu+ mu+ e- e-,134.2
+EV017,2mu2e,2 muoni + 2 elettroni,mu+ mu- e+ e-,126.4
+EV018,2mu2e,2 muoni + 2 elettroni,mu+ mu- e+ e+,118.7
+EV019,2mu2e,2 muoni + 2 elettroni,mu+ mu- e+ e-,109.3
+EV020,2mu2e,2 muoni + 2 elettroni,mu+ mu- e+ e-,149.5
+EV021,2mu2e,2 muoni + 2 elettroni,mu+ mu- e+ e-,124.6
+EV022,2mu2e,2 muoni + 2 elettroni,mu+ mu+ e+ e-,127.1
+EV023,2mu2e,2 muoni + 2 elettroni,mu+ mu- e+ e-,97.6
+EV024,2mu2e,2 muoni + 2 elettroni,mu+ mu- e+ e-,160.4
+EV025,4e,4 elettroni,e+ e+ e- e-,123.8
+EV026,4e,4 elettroni,e+ e+ e- e-,92.1
+EV027,4e,4 elettroni,e+ e+ e- e-,126.1
+EV028,4e,4 elettroni,e+ e+ e+ e-,129.4
+EV029,4e,4 elettroni,e+ e+ e- e-,113.8
+EV030,4e,4 elettroni,e+ e- e- e-,122.0
+EV031,4e,4 elettroni,e+ e+ e- e-,125.0
+EV032,4e,4 elettroni,e+ e+ e- e-,145.7
+EV033,4e,4 elettroni,e+ e+ e- e-,104.5
+EV034,4e,4 elettroni,e+ e+ e- e-,155.2
+EV035,4e,4 elettroni,e+ e+ e- e-,119.6
+EV036,4e,4 elettroni,e+ e- e- e-,126.7
+EV037,gammagamma,2 fotoni,gamma gamma,124.9
+EV038,gammagamma,2 fotoni,gamma gamma,98.2
+EV039,gammagamma,2 fotoni,gamma gamma,125.7
+EV040,gammagamma,2 fotoni,gamma gamma,111.4
+EV041,gammagamma,2 fotoni,gamma gamma,126.3
+EV042,gammagamma,2 fotoni,gamma gamma,130.8
+EV043,gammagamma,2 fotoni,gamma gamma,138.6
+EV044,gammagamma,2 fotoni,gamma gamma,124.2
+EV045,gammagamma,2 fotoni,gamma gamma,127.9
+EV046,gammagamma,2 fotoni,gamma gamma,151.3
+EV047,gammagamma,2 fotoni,gamma gamma,118.1
+EV048,gammagamma,2 fotoni,gamma gamma,125.1
+EV049,4mu,4 muoni,mu+ mu+ mu- mu-,124.9
+EV050,2mu2e,2 muoni + 2 elettroni,mu+ mu- e+ e-,125.8
