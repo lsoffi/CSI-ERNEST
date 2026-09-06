@@ -1,0 +1,33 @@
+[
+  {
+    "case_id": "CSI-004",
+    "title": "I dadi nascondono un segreto",
+    "age_group": "11-13 anni; attività ERN aperta al pubblico",
+    "physics_topic": "Probabilità e frequenze: somma di due dadi, conteggio delle coppie ordinate, istogramma e fluttuazioni statistiche. Confrontare un modello con dati raccolti dal pubblico.",
+    "cover_image": "",
+    "mystery": "Lanciate due dadi giganti e sommate i risultati. Quali somme usciranno più spesso? Raccogliete le prove e scoprite se il caso nasconde una regolarità.",
+    "story_intro": "In piazza parte un esperimento collettivo. Ogni partecipante lancia due dadi e aggiunge la loro somma al pannello. La sfida: prevedere la forma del grafico prima che i lanci la rivelino. Alcuni pensano che tutte le somme abbiano le stesse possibilità, altri prevedono differenze. Saranno i dati e le combinazioni a guidare l’indagine.",
+    "scene_evidence": "Due dadi giganti a sei facce, identificati A e B; un pannello con colonne da 2 a 12; post-it con i risultati separati e la somma; un registro dei lanci.",
+    "witness_1": "Una partecipante: «Ogni dado ha sei facce. Secondo me tutte le somme usciranno altrettante volte.»",
+    "witness_2": "Un partecipante: «La stessa somma può nascere da coppie diverse. Registriamo anche i risultati dei due dadi.»",
+    "witness_3": "La ricercatrice: «Prima fate una previsione. Poi confrontatela con i lanci e contate i modi di ottenere ciascuna somma.»",
+    "mission": "Raccogliete tutti i lanci validi e costruite il grafico delle somme. Confrontate le vostre previsioni con i dati: quali somme compaiono più spesso e come potete spiegarlo?",
+    "hypothesis_1": "Tutte le somme da 2 a 12 hanno la stessa probabilità.",
+    "hypothesis_2": "Alcune somme hanno più modi di verificarsi e sono più probabili.",
+    "hypothesis_3": "Se i singoli risultati sono casuali, non può emergere una regolarità collettiva.",
+    "variable_changed": "Somma osservata e numero di lanci raccolti; confrontare le prime 10 prove con l’intera sessione, mantenendo lo stesso protocollo",
+    "quantity_measured": "Risultato del dado A, risultato del dado B, somma e numero di occorrenze di ogni somma",
+    "expected_graph": "Istogramma: somme intere da 2 a 12 sull’asse x, numero di lanci per ciascuna somma sull’asse y; un post-it rappresenta un lancio valido",
+    "graph_shape": "Nel modello di due dadi equi e indipendenti le frequenze attese crescono verso il 7 e decrescono simmetricamente. Nei dati finiti la forma è irregolare e il 7 non è necessariamente la colonna più alta.",
+    "materials": "Due dadi giganti gonfiabili a sei facce; pannello bianco stabile; almeno 100 post-it uguali; pennarelli grossi; nastro rimovibile per etichette A/B, fissaggio dei post-it e area di lancio; fascicoli stampati facoltativi.",
+    "teacher_solution": "Con due dadi equi e indipendenti esistono 36 coppie ordinate equiprobabili. Le somme da 2 a 12 hanno rispettivamente 1, 2, 3, 4, 5, 6, 5, 4, 3, 2, 1 modi di verificarsi. Il 7 ha probabilità 6/36, mentre 2 e 12 hanno probabilità 1/36 ciascuno. Le somme non sono equiprobabili: quelle centrali hanno più modi di verificarsi e sono quindi più probabili. Il modello non garantisce il risultato della singola sessione e l’attività non certifica l’equità dei dadi gonfiabili.",
+    "educational_message": "Non possiamo prevedere il prossimo lancio, ma possiamo scoprire quali somme sono più probabili.",
+    "real_world_connection": "Negli esperimenti scientifici si confrontano i dati raccolti con le previsioni. Ripetere le prove aiuta a riconoscere regolarità, senza eliminare le fluttuazioni casuali. Con i dadi sperimentiamo questo metodo in prima persona.",
+    "step_1_observe": "Leggete il caso e le testimonianze. Identificate A, B e la regola della somma.",
+    "step_2_hypothesize": "Prevedete la forma del grafico prima dei lanci e motivate la previsione.",
+    "step_3_experiment": "Lanciate entrambi i dadi nella zona delimitata. Leggete le facce superiori quando sono fermi. Se un dado è inclinato o fuori area, ripetete entrambi e annotate la ripetizione; non scartate risultati sgraditi.",
+    "step_4_record_data": "Per ogni lancio valido registrate A, B e somma su un solo post-it. Controllate che il totale dei conteggi sia il numero di lanci validi.",
+    "step_5_build_graph": "Impilate i post-it nelle colonne da 2 a 12. Annotate i conteggi dopo 10 lanci e a fine sessione. Se confrontate campioni di dimensione diversa, usate anche le frequenze relative.",
+    "step_6_conclusion": "Dopo la raccolta compilate la griglia 6 × 6, contate i modi di ottenere ciascuna somma e confrontate il modello con il grafico. Spiegate cosa potete concludere e cosa resta incerto."
+  }
+]

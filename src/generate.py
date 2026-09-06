@@ -61,8 +61,14 @@ def generate(input_path: Path, output_dir: Path, combined: bool, logo_path: Path
         stem = f"{slugify(case['case_id'])}-{slugify(case['title'])}"
         student_path = output_dir / f"{stem}-student.pdf"
         teacher_path = output_dir / f"{stem}-teacher-guide.pdf"
-        build_student_pdf(case, student_path, logo_path)
-        build_teacher_pdf(case, teacher_path, logo_path)
+        if case["case_id"] == "CSI-004":
+            from dice_case import build_student_pdf as dice_student, build_teacher_pdf as dice_teacher, build_poster_pdf
+            dice_student(case, student_path, logo_path)
+            dice_teacher(case, teacher_path, logo_path)
+            build_poster_pdf(case, output_dir / "csi-004-poster-a3.pdf")
+        else:
+            build_student_pdf(case, student_path, logo_path)
+            build_teacher_pdf(case, teacher_path, logo_path)
         student_paths.append(student_path)
         teacher_paths.append(teacher_path)
         print(f"Generated {student_path}")
