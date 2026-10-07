@@ -1,0 +1,880 @@
+{
+  "case_id": "CSI-005",
+  "title": "Trasporto del paziente",
+  "subtitle": "Misure e analisi del movimento",
+  "age_group": "Studenti di infermieristica",
+  "physics_topic": "Misura, velocità e accelerazione",
+  "mystery": "Un paziente riferisce nausea durante gli spostamenti e deve essere accompagnato dal reparto alla sala esami. Il percorso viene descritto come lungo circa 100 passi. Per stimarne la distanza, assumete che il passo di chi effettua il trasporto abbia la stessa lunghezza del passo medio del vostro gruppo.",
+  "story_intro": "Due operatori propongono modalità diverse. Nel trasporto A si parte da fermi e si raggiungono 72 m/min in 3 secondi; la frenata finale dura 3 secondi. Nel trasporto B si raggiungono 4,5 km/h in 5 secondi e ci si ferma in 5 secondi. Tra partenza e frenata la velocità è costante, senza soste intermedie. Le variazioni di velocità sono uniformi.\n\nLa vostra squadra deve raccogliere le misure del passo, stimare il percorso, confrontare velocità e accelerazioni e rappresentare i primi 10 secondi di moto su un grafico. Stimerete poi il tempo di percorrenza e motiverete la scelta con i risultati.\n\nLa regola del caso richiede un’accelerazione in valore assoluto non superiore a 0,30 m/s², sia in partenza sia in frenata. È una soglia inventata per l’esercizio: non è un limite clinico né una raccomandazione di trasporto.",
+  "student": [
+    {
+      "type": "heading",
+      "text": "CSI-005"
+    },
+    {
+      "type": "heading",
+      "text": "Trasporto del paziente e studio del movimento"
+    },
+    {
+      "type": "heading",
+      "text": "La situazione problema"
+    },
+    {
+      "type": "text",
+      "text": "Un paziente riferisce nausea durante gli spostamenti e deve essere accompagnato dal reparto alla sala esami. Un operatore descrive il percorso come lungo circa 100 passi. Per questo esercizio assumete che il suo passo abbia la stessa lunghezza del passo medio dei componenti del vostro gruppo."
+    },
+    {
+      "type": "text",
+      "text": "Due operatori propongono modalità diverse di trasporto. Dovete stimare la distanza, ricostruire i movimenti e scegliere la proposta che rispetta la regola assegnata, motivando la decisione con misure, calcoli e grafici."
+    },
+    {
+      "type": "text",
+      "text": "Regola del caso: il valore assoluto dell’accelerazione non deve superare 0,30 m/s², sia in partenza sia in frenata. La soglia è inventata per l’attività: non è un limite clinico per prevenire la cinetosi né una raccomandazione di trasporto."
+    },
+    {
+      "type": "heading",
+      "text": "Il banco di indagine"
+    },
+    {
+      "type": "text",
+      "text": "Lavorate in gruppi di 4–5 persone con un metro a nastro da 5 m, fogli a quadretti, matite, righello e calcolatrice. Potete usare nastro adesivo rimovibile per segnare gli appoggi. Il lavoro si svolge su carta; ci si alza soltanto per misurare brevi sequenze di passi. Non si utilizzano carrelli, pupazzi o persone da trasportare."
+    },
+    {
+      "type": "heading",
+      "text": "La missione"
+    },
+    {
+      "type": "text",
+      "text": "1. Stimare la lunghezza di 100 passi e discutere la variabilità delle misure.\n2. Confrontare velocità e accelerazioni delle due proposte.\n3. Ricostruire i primi 10 secondi con un grafico velocità–tempo.\n4. Stimare il tempo del tragitto e redigere una decisione motivata."
+    },
+    {
+      "type": "heading",
+      "text": "Ipotesi iniziale"
+    },
+    {
+      "type": "text",
+      "text": "Per rendere una partenza più graduale, conta soltanto la velocità raggiunta? Scrivete la vostra ipotesi prima di leggere i dati dei due trasporti."
+    },
+    {
+      "type": "text",
+      "text": "________________________________________________________________________________"
+    },
+    {
+      "type": "text",
+      "text": "________________________________________________________________________________"
+    },
+    {
+      "type": "break"
+    },
+    {
+      "type": "heading",
+      "text": "1  Misurare il percorso"
+    },
+    {
+      "type": "text",
+      "text": "Prima di misurare: quali dati servono? Basta il passo di una persona? È meglio misurare un passo isolato oppure più passi consecutivi?"
+    },
+    {
+      "type": "text",
+      "text": "________________________________________________________________________________"
+    },
+    {
+      "type": "text",
+      "text": "________________________________________________________________________________"
+    },
+    {
+      "type": "heading",
+      "text": "Procedura di misura"
+    },
+    {
+      "type": "text",
+      "text": "Ogni partecipante percorre cinque passi naturali consecutivi. Un passo è il passaggio da un appoggio al successivo, non il ciclo completo della stessa gamba. Segnate partenza e arrivo, misurate la distanza totale e dividetela per cinque. Ripetete tre volte per persona. Conservate sui fogli a quadretti anche le distanze totali misurate."
+    },
+    {
+      "type": "text",
+      "text": "Esempio di registrazione, senza dati già assegnati: distanza di 5 passi = ______ cm; lunghezza media di un passo nella prova = ______ ÷ 5 = ______ cm."
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "Partecipante",
+          "Prova 1\npasso in cm",
+          "Prova 2\npasso in cm",
+          "Prova 3\npasso in cm",
+          "Media\nin cm"
+        ],
+        [
+          "1",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "2",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "3",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "4",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "5",
+          "",
+          "",
+          "",
+          ""
+        ]
+      ]
+    },
+    {
+      "type": "text",
+      "text": "Per ogni persona calcolate la media delle tre prove; poi calcolate la media dei risultati delle persone che hanno effettivamente partecipato alle misure. In un gruppo di quattro non includete la quinta riga vuota nel calcolo."
+    },
+    {
+      "type": "text",
+      "text": "Passo medio del gruppo = __________________ cm"
+    },
+    {
+      "type": "text",
+      "text": "Distanza equivalente a 100 passi = 100 × __________ = __________ cm = __________ m"
+    },
+    {
+      "type": "heading",
+      "text": "Quanto variano le misure"
+    },
+    {
+      "type": "text",
+      "text": "Le tre prove di una stessa persona coincidono? Calcolate per ciascuna persona la semidispersione delle tre lunghezze medie del passo:"
+    },
+    {
+      "type": "text",
+      "text": "Semidispersione = (valore massimo − valore minimo) ÷ 2"
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "Partecipante",
+          "1",
+          "2",
+          "3",
+          "4",
+          "5"
+        ],
+        [
+          "Semidispersione (cm)",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ]
+      ]
+    },
+    {
+      "type": "break"
+    },
+    {
+      "type": "heading",
+      "text": "2  Interpretare le misure e le proposte"
+    },
+    {
+      "type": "text",
+      "text": "Usate la semidispersione come indicatore semplice della variabilità delle prove. Le differenze tra persone possono invece dipendere da passi realmente diversi: non sono automaticamente errori di misura."
+    },
+    {
+      "type": "text",
+      "text": "Quale distanza ricavereste usando il passo medio della persona con il passo più corto? E con quello della persona con il passo più lungo?"
+    },
+    {
+      "type": "text",
+      "text": "Stima con il passo più corto = __________________ m\nStima con il passo più lungo = __________________ m"
+    },
+    {
+      "type": "text",
+      "text": "Commentate le differenze. Che cosa potete concludere e che cosa non potete concludere sulla distanza reale del corridoio?"
+    },
+    {
+      "type": "text",
+      "text": "________________________________________________________________________________"
+    },
+    {
+      "type": "text",
+      "text": "________________________________________________________________________________"
+    },
+    {
+      "type": "heading",
+      "text": "Le due proposte di trasporto"
+    },
+    {
+      "type": "text",
+      "text": "Entrambi gli operatori partono da fermi, mantengono la velocità raggiunta e infine si fermano. Non ci sono fermate intermedie. Considerate un movimento rettilineo; durante partenza e frenata la velocità cambia uniformemente."
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "Fase",
+          "Trasporto A",
+          "Trasporto B"
+        ],
+        [
+          "Partenza",
+          "Da 0 a 72 m/min in 3 s",
+          "Da 0 a 4,5 km/h in 5 s"
+        ],
+        [
+          "Movimento regolare",
+          "Mantiene la velocità raggiunta",
+          "Mantiene la velocità raggiunta"
+        ],
+        [
+          "Frenata finale",
+          "Si ferma in 3 s",
+          "Si ferma in 5 s"
+        ]
+      ]
+    },
+    {
+      "type": "text",
+      "text": "Prima dei calcoli, quale proposta sembra raggiungere la velocità maggiore? Motivate la previsione."
+    },
+    {
+      "type": "text",
+      "text": "________________________________________________________________________________"
+    },
+    {
+      "type": "text",
+      "text": "________________________________________________________________________________"
+    },
+    {
+      "type": "heading",
+      "text": "Conversione delle velocità"
+    },
+    {
+      "type": "text",
+      "text": "Esprimete entrambe le velocità in m/s, mostrando i passaggi e le unità."
+    },
+    {
+      "type": "text",
+      "text": "A: __________________________________________________________________________\n_____________________________________________________________________________"
+    },
+    {
+      "type": "text",
+      "text": "B: __________________________________________________________________________\n_____________________________________________________________________________"
+    },
+    {
+      "type": "text",
+      "text": "La previsione iniziale era corretta? ______________________________________________"
+    },
+    {
+      "type": "break"
+    },
+    {
+      "type": "heading",
+      "text": "3  Confrontare le accelerazioni"
+    },
+    {
+      "type": "text",
+      "text": "Assumete positivo il verso del movimento. Per una variazione uniforme della velocità, l’accelerazione è il rapporto tra variazione di velocità e intervallo di tempo:"
+    },
+    {
+      "type": "text",
+      "text": "a = (velocità finale − velocità iniziale) ÷ tempo impiegato"
+    },
+    {
+      "type": "text",
+      "text": "Calcolate partenza e frenata per entrambi i trasporti. Conservate il segno nei risultati; confrontate poi il valore assoluto con 0,30 m/s²."
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "Grandezza",
+          "Trasporto A",
+          "Trasporto B"
+        ],
+        [
+          "Velocità raggiunta (m/s)",
+          "",
+          ""
+        ],
+        [
+          "Accelerazione in partenza (m/s²)",
+          "",
+          ""
+        ],
+        [
+          "Accelerazione in frenata (m/s²)",
+          "",
+          ""
+        ],
+        [
+          "Accelerazione a velocità costante (m/s²)",
+          "",
+          ""
+        ],
+        [
+          "Rispetta la regola del caso?",
+          "",
+          ""
+        ]
+      ]
+    },
+    {
+      "type": "text",
+      "text": "Passaggi di calcolo della partenza e della frenata:"
+    },
+    {
+      "type": "text",
+      "text": "________________________________________________________________________________"
+    },
+    {
+      "type": "text",
+      "text": "________________________________________________________________________________"
+    },
+    {
+      "type": "text",
+      "text": "________________________________________________________________________________"
+    },
+    {
+      "type": "text",
+      "text": "________________________________________________________________________________"
+    },
+    {
+      "type": "text",
+      "text": "1. Che significato ha il segno negativo in frenata? Indica necessariamente che il paziente si muove all’indietro?"
+    },
+    {
+      "type": "text",
+      "text": "________________________________________________________________________________"
+    },
+    {
+      "type": "text",
+      "text": "________________________________________________________________________________"
+    },
+    {
+      "type": "text",
+      "text": "2. Quando la velocità resta costante, quanto vale l’accelerazione? Motivate."
+    },
+    {
+      "type": "text",
+      "text": "________________________________________________________________________________"
+    },
+    {
+      "type": "text",
+      "text": "________________________________________________________________________________"
+    },
+    {
+      "type": "text",
+      "text": "3. Quale proposta rispetta il criterio sia in partenza sia in frenata?"
+    },
+    {
+      "type": "text",
+      "text": "________________________________________________________________________________"
+    },
+    {
+      "type": "text",
+      "text": "________________________________________________________________________________"
+    },
+    {
+      "type": "break"
+    },
+    {
+      "type": "heading",
+      "text": "4  Ricostruire il movimento"
+    },
+    {
+      "type": "text",
+      "text": "Disegnate con colori diversi i grafici velocità–tempo dei primi 10 secondi. Usate la stessa scala per entrambi: tempo in secondi sull’asse orizzontale, velocità in m/s su quello verticale. Indicate chiaramente A e B."
+    },
+    {
+      "type": "text",
+      "text": "In questi primi 10 secondi nessuno dei due trasporti ha ancora iniziato a frenare. Durante la partenza la velocità aumenta uniformemente; in seguito resta costante."
+    },
+    {
+      "type": "chart",
+      "solved": false
+    },
+    {
+      "type": "text",
+      "text": "1. Quale curva raggiunge il livello di velocità più alto?"
+    },
+    {
+      "type": "text",
+      "text": "________________________________________________________________________________"
+    },
+    {
+      "type": "text",
+      "text": "2. Quale curva presenta la salita più ripida?"
+    },
+    {
+      "type": "text",
+      "text": "________________________________________________________________________________"
+    },
+    {
+      "type": "text",
+      "text": "3. Qual è la relazione tra la pendenza del grafico e l’accelerazione?"
+    },
+    {
+      "type": "text",
+      "text": "________________________________________________________________________________"
+    },
+    {
+      "type": "text",
+      "text": "________________________________________________________________________________"
+    },
+    {
+      "type": "text",
+      "text": "4. Essere più veloci significa necessariamente avere accelerazione maggiore? Usate i due grafici per argomentare."
+    },
+    {
+      "type": "text",
+      "text": "________________________________________________________________________________"
+    },
+    {
+      "type": "text",
+      "text": "________________________________________________________________________________"
+    },
+    {
+      "type": "break"
+    },
+    {
+      "type": "heading",
+      "text": "5  Stimare il tempo e chiudere il caso"
+    },
+    {
+      "type": "text",
+      "text": "Usate la distanza stimata dal vostro gruppo. Calcolate quanto durerebbe il tragitto se fosse percorso interamente alla velocità costante indicata per A e B, trascurando per questa prima stima partenza e frenata."
+    },
+    {
+      "type": "text",
+      "text": "Distanza utilizzata = __________ m     Tempo stimato = distanza ÷ velocità"
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "Grandezza",
+          "Trasporto A",
+          "Trasporto B"
+        ],
+        [
+          "Velocità in m/s",
+          "",
+          ""
+        ],
+        [
+          "Accelerazione in partenza in m/s²",
+          "",
+          ""
+        ],
+        [
+          "Accelerazione in frenata in m/s²",
+          "",
+          ""
+        ],
+        [
+          "Tempo stimato in secondi",
+          "",
+          ""
+        ],
+        [
+          "Tempo stimato in minuti",
+          "",
+          ""
+        ]
+      ]
+    },
+    {
+      "type": "text",
+      "text": "Passaggi di calcolo dei tempi e conversione in minuti:"
+    },
+    {
+      "type": "text",
+      "text": "________________________________________________________________________________"
+    },
+    {
+      "type": "text",
+      "text": "________________________________________________________________________________"
+    },
+    {
+      "type": "text",
+      "text": "Il tempo del modello completo, includendo partenza e frenata, sarebbe maggiore, minore o uguale a questa stima? Spiegate perché."
+    },
+    {
+      "type": "text",
+      "text": "________________________________________________________________________________"
+    },
+    {
+      "type": "text",
+      "text": "________________________________________________________________________________"
+    },
+    {
+      "type": "heading",
+      "text": "La decisione del gruppo"
+    },
+    {
+      "type": "text",
+      "text": "Scegliamo il trasporto __________ perché ________________________________________"
+    },
+    {
+      "type": "text",
+      "text": "________________________________________________________________________________"
+    },
+    {
+      "type": "text",
+      "text": "________________________________________________________________________________"
+    },
+    {
+      "type": "text",
+      "text": "La distanza stimata è __________ m. Le misure e il confronto dei movimenti mostrano che:"
+    },
+    {
+      "type": "text",
+      "text": "________________________________________________________________________________"
+    },
+    {
+      "type": "text",
+      "text": "________________________________________________________________________________"
+    },
+    {
+      "type": "heading",
+      "text": "Domanda finale"
+    },
+    {
+      "type": "text",
+      "text": "Un paziente può essere in movimento mentre la sua accelerazione è zero? Motivate la risposta."
+    },
+    {
+      "type": "text",
+      "text": "________________________________________________________________________________"
+    },
+    {
+      "type": "text",
+      "text": "________________________________________________________________________________"
+    },
+    {
+      "type": "text",
+      "text": "Prima della consegna controllate: unità coerenti; segni delle accelerazioni; grafici con assi e legenda; distinzione tra stima e tempo completo; decisione sostenuta dai calcoli."
+    }
+  ],
+  "teacher": [
+    {
+      "type": "heading",
+      "text": "CSI-005"
+    },
+    {
+      "type": "heading",
+      "text": "Trasporto del paziente e studio del movimento"
+    },
+    {
+      "type": "text",
+      "text": "Guida docente e soluzioni — da tenere separata dalla scheda studenti"
+    },
+    {
+      "type": "heading",
+      "text": "Obiettivo del caso"
+    },
+    {
+      "type": "text",
+      "text": "L’attività usa un contesto infermieristico per distinguere distanza, velocità e accelerazione e collegare misurazione, rappresentazione grafica e decisione motivata. La soluzione richiesta riguarda il criterio fisico assegnato, non l’idoneità clinica di una modalità di trasporto."
+    },
+    {
+      "type": "heading",
+      "text": "Organizzazione"
+    },
+    {
+      "type": "text",
+      "text": "Destinatari: studenti e studentesse di infermieristica. Gruppi di 4–5 persone. Durata proposta: 90 minuti, adattabile alle competenze iniziali. Il lavoro è svolto su carta, salvo brevi misure del passo; non sono previste simulazioni di trasporto di persone."
+    },
+    {
+      "type": "text",
+      "text": "Materiali per gruppo: metro da 5 m, fogli a quadretti, matite, righello, calcolatrice, eventuale nastro adesivo rimovibile. Distribuire le sei pagine della scheda studenti; trattenere questa guida. Verificare che lo spazio per camminare sia libero e che la sequenza di cinque passi sia misurabile con lo strumento disponibile."
+    },
+    {
+      "type": "text",
+      "text": "Prerequisiti: media aritmetica, conversioni di lunghezze e tempi, lettura di un grafico cartesiano. Le formule utili sono presenti nella scheda. Chi non partecipa alla camminata può misurare, registrare o verificare i calcoli; la media va calcolata soltanto sulle persone misurate."
+    },
+    {
+      "type": "heading",
+      "text": "Scansione proposta"
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "Fase",
+          "Minuti",
+          "Esito"
+        ],
+        [
+          "Scenario e ipotesi",
+          "10",
+          "Previsione scritta prima dei calcoli"
+        ],
+        [
+          "Misure e variabilità",
+          "20",
+          "Stima dei 100 passi e confronto delle misure"
+        ],
+        [
+          "Velocità e accelerazioni",
+          "20",
+          "Tabella numerica con unità e segni"
+        ],
+        [
+          "Grafici",
+          "15",
+          "Curve A e B nei primi 10 secondi"
+        ],
+        [
+          "Tempi e decisione",
+          "15",
+          "Stime e scelta argomentata"
+        ],
+        [
+          "Discussione finale",
+          "10",
+          "Distinzione tra velocità e accelerazione"
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "Condizioni da esplicitare"
+    },
+    {
+      "type": "text",
+      "text": "La soglia 0,30 m/s² è inventata e non rappresenta un limite clinico per prevenire la cinetosi. Il modello assume moto rettilineo, variazioni uniformi della velocità, velocità di crociera costante e nessuna fermata intermedia. Non valuta curve, vibrazioni, cambiamenti dell’accelerazione o condizioni individuali del paziente."
+    },
+    {
+      "type": "break"
+    },
+    {
+      "type": "heading",
+      "text": "Soluzioni delle misure e dei calcoli"
+    },
+    {
+      "type": "heading",
+      "text": "Misura del passo e distanza"
+    },
+    {
+      "type": "text",
+      "text": "Per ogni prova dividere per cinque la distanza misurata. Per ciascuna persona fare la media delle tre prove, poi fare la media tra le persone misurate. Con un passo medio di 65 cm si ottengono 100 × 65 cm = 6500 cm = 65 m. È un esempio: i risultati dei gruppi dipendono dalle misure."
+    },
+    {
+      "type": "text",
+      "text": "Per ciascuna persona: semidispersione = (massimo − minimo) ÷ 2, applicata alle tre lunghezze medie del passo. È un indicatore semplice della variabilità, non una valutazione completa dell’incertezza. Le differenze tra persone includono differenze reali di passo."
+    },
+    {
+      "type": "text",
+      "text": "Le stime basate sul passo medio individuale più corto e più lungo sono 100 volte quei valori, convertiti in metri. Non sono limiti certificati della distanza reale: anche l’informazione iniziale «circa 100 passi» e l’equivalenza al passo del gruppo sono assunzioni del caso."
+    },
+    {
+      "type": "heading",
+      "text": "Conversioni"
+    },
+    {
+      "type": "text",
+      "text": "A: 72 m/min ÷ 60 = 1,20 m/s.\nB: 4,5 km/h × 1000 ÷ 3600 = 1,25 m/s."
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "Grandezza",
+          "A",
+          "B"
+        ],
+        [
+          "Velocità di crociera",
+          "1,20 m/s",
+          "1,25 m/s"
+        ],
+        [
+          "Accelerazione in partenza",
+          "(1,20 − 0) / 3 = +0,40 m/s²",
+          "(1,25 − 0) / 5 = +0,25 m/s²"
+        ],
+        [
+          "Accelerazione in frenata",
+          "(0 − 1,20) / 3 = −0,40 m/s²",
+          "(0 − 1,25) / 5 = −0,25 m/s²"
+        ],
+        [
+          "Accelerazione in crociera",
+          "0 m/s²",
+          "0 m/s²"
+        ],
+        [
+          "Criterio |a| ≤ 0,30 m/s²",
+          "Non rispettato",
+          "Rispettato"
+        ]
+      ]
+    },
+    {
+      "type": "text",
+      "text": "B raggiunge una velocità leggermente maggiore, ma parte e frena più gradualmente. In frenata il segno negativo indica che la velocità diminuisce rispetto al verso scelto come positivo: non implica un’inversione del moto."
+    },
+    {
+      "type": "heading",
+      "text": "Tempi stimati su 65 metri"
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "Stima a velocità costante",
+          "A",
+          "B"
+        ],
+        [
+          "Secondi",
+          "65 / 1,20 ≈ 54,2 s",
+          "65 / 1,25 = 52,0 s"
+        ],
+        [
+          "Minuti",
+          "54,2 / 60 ≈ 0,90 min",
+          "52 / 60 ≈ 0,87 min"
+        ]
+      ]
+    },
+    {
+      "type": "text",
+      "text": "I tempi completi sono maggiori: in partenza e frenata la velocità è inferiore a quella di crociera. I valori 0,90 e 0,87 sono minuti decimali, non indicazioni in minuti e secondi."
+    },
+    {
+      "type": "break"
+    },
+    {
+      "type": "heading",
+      "text": "Soluzione grafica e discussione"
+    },
+    {
+      "type": "text",
+      "text": "Collegare con segmenti i punti A: (0; 0), (3; 1,20), (10; 1,20); B: (0; 0), (5; 1,25), (10; 1,25). La frenata non compare in questo intervallo."
+    },
+    {
+      "type": "chart",
+      "solved": true
+    },
+    {
+      "type": "text",
+      "text": "B raggiunge il livello più alto; A presenta la salita più ripida. La pendenza rappresenta l’accelerazione. I tratti orizzontali indicano accelerazione nulla pur con velocità diversa da zero."
+    },
+    {
+      "type": "heading",
+      "text": "Decisione attesa"
+    },
+    {
+      "type": "text",
+      "text": "Il gruppo sceglie B perché il valore assoluto dell’accelerazione è 0,25 m/s² sia in partenza sia in frenata, inferiore a 0,30 m/s². La distanza va riportata secondo le misure del gruppo. La velocità di B è maggiore, ma non lo è la sua accelerazione."
+    },
+    {
+      "type": "heading",
+      "text": "Domande per la restituzione"
+    },
+    {
+      "type": "text",
+      "text": "• Quale indizio vi ha fatto cambiare la previsione iniziale?\n• Perché non basta confrontare 72 e 4,5?\n• La maggiore variabilità tra persone prova che qualcuno ha misurato male?\n• Quale parte del grafico mostra un movimento con accelerazione nulla?\n• Perché il tempo ottenuto da distanza divisa per velocità è qui una prima stima?\n• Che cosa permette di decidere la soglia del gioco e che cosa non permette di concludere sul paziente?"
+    },
+    {
+      "type": "heading",
+      "text": "Aiuti progressivi senza anticipare la scelta"
+    },
+    {
+      "type": "text",
+      "text": "Se il gruppo si blocca, chiedere prima di scrivere le unità accanto a ogni numero. Poi richiamare che un minuto contiene 60 secondi e un chilometro 1000 metri. Per l’accelerazione, far identificare separatamente velocità iniziale, velocità finale e durata. Per il grafico, far segnare prima gli estremi della fase di partenza."
+    },
+    {
+      "type": "break"
+    },
+    {
+      "type": "heading",
+      "text": "Valutazione e approfondimento facoltativo"
+    },
+    {
+      "type": "heading",
+      "text": "Criteri proposti per la valutazione"
+    },
+    {
+      "type": "text",
+      "text": "Assegnare per ciascun criterio 0 punti se assente o concettualmente errato, 1 se parziale, 2 se corretto e motivato. Totale massimo: 12 punti. La griglia è una proposta didattica, da adattare al corso."
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "Criterio",
+          "Evidenza da osservare"
+        ],
+        [
+          "Misura e media",
+          "Cinque passi, tre prove, medie e conversione corretti"
+        ],
+        [
+          "Variabilità",
+          "Semidispersione corretta e distinta dalle differenze individuali"
+        ],
+        [
+          "Velocità e accelerazione",
+          "Unità, segni e valori assoluti coerenti"
+        ],
+        [
+          "Grafico",
+          "Assi, scale, punti e pendenze corretti"
+        ],
+        [
+          "Tempi",
+          "Stima in secondi e minuti e spiegazione del limite"
+        ],
+        [
+          "Decisione",
+          "Scelta di B motivata e corretta risposta finale"
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "Tempo completo nel modello"
+    },
+    {
+      "type": "text",
+      "text": "Approfondimento per il docente, non necessario per completare la scheda. Con partenza e frenata uniformi e simmetriche, durata di ciascuna fase τ e velocità di crociera v, la distanza totale delle due fasi è vτ. Per un percorso D sufficientemente lungo, il tempo completo è T = D/v + τ."
+    },
+    {
+      "type": "text",
+      "text": "Su 65 m: A percorre 3,60 m complessivi in partenza e frenata, impiega 6 s in tali fasi e 61,40 / 1,20 ≈ 51,17 s in crociera: T ≈ 57,17 s. B percorre 6,25 m nelle due fasi, impiega 10 s e 58,75 / 1,25 = 47 s in crociera: T = 57,00 s."
+    },
+    {
+      "type": "text",
+      "text": "La formula richiede D ≥ vτ: almeno 3,60 m per A e 6,25 m per B. La rappresentazione dei primi 10 s senza frenata richiede inoltre un tragitto abbastanza lungo; con 65 m la condizione è soddisfatta. Non estendere automaticamente il profilo a percorsi molto brevi."
+    },
+    {
+      "type": "heading",
+      "text": "Errori da riprendere"
+    },
+    {
+      "type": "text",
+      "text": "Confondere passo e falcata; dividere per cinque anche una media già espressa per passo; mediare includendo righe vuote; confrontare numeri con unità diverse; interpretare accelerazione negativa come moto all’indietro; confondere velocità costante e immobilità; presentare la soglia inventata come prescrizione clinica."
+    }
+  ]
+}
