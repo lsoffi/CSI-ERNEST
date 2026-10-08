@@ -36,6 +36,21 @@ def chart(solved):
    for (x,y),(xx,yy) in zip(pts,pts[1:]):d.add(Line(30+x*26,25+y*110,30+xx*26,25+yy*110,strokeColor=col,strokeWidth=1.5))
    d.add(String(295,25+pts[-1][1]*110+(5 if lab=='B' else -6),lab,fontSize=8,fillColor=col))
  return d
+def full_chart(solved):
+ d=Drawing(310,220)
+ for i in range(13):
+  x=30+i*21;d.add(Line(x,25,x,190,strokeColor=colors.lightgrey))
+  if solved:d.add(String(x,12,str(i*5),fontSize=7,textAnchor='middle'))
+ for i in range(16):
+  y=25+i*11;d.add(Line(30,y,282,y,strokeColor=colors.lightgrey))
+  if solved:d.add(String(25,y-2,f'{i/10:.1f}',fontSize=6,textAnchor='end'))
+ d.add(Line(30,25,292,25,strokeColor=BLUE));d.add(Line(30,25,30,198,strokeColor=BLUE))
+ if solved:
+  d.add(String(30,205,'Velocità (m/s)',fontSize=9));d.add(String(235,0,'Tempo (s)',fontSize=9))
+  for pts,col in [([(0,0),(3,1.2),(54.1667,1.2),(57.1667,0)],BLUE), ([(0,0),(5,1.25),(52,1.25),(57,0)],colors.HexColor('#BA5B15'))]:
+   for (x,y),(xx,yy) in zip(pts,pts[1:]):d.add(Line(30+x*4.2,25+y*110,30+xx*4.2,25+yy*110,strokeColor=col,strokeWidth=1.5))
+  d.add(String(90,175,'A: blu    B: arancione',fontSize=8))
+ return d
 def render(case,path,kind,root):
  sys.path.insert(0,str(root/'src'));from pdf_builder import DossierPdf
  def frame(c,doc):
@@ -46,6 +61,7 @@ def render(case,path,kind,root):
   if kind=='student' and idx<2:continue
   t=item.get('text','')
   if item['type']=='break':story.append(PageBreak()) if kind=='student' else story.append(Spacer(1,4*mm))
+  elif item['type']=='chart_full':story.append(full_chart(item['solved']))
   elif item['type']=='chart':story.append(chart(item['solved']))
   elif item['type']=='table':
    rows=[[p(c,SMALL) for c in row] for row in item['rows']];n=len(rows[0]);width=112*mm
@@ -66,7 +82,16 @@ def render(case,path,kind,root):
   from pypdf import PdfReader,PdfWriter
   class Cover(DossierPdf):
    def cover_mystery(self,case,x,y,w,h):
-    return super().cover_mystery(case,x,y,w,80*mm)
+    y+=10*mm;h=90*mm
+    self.box(x,y,w,h)
+    self.c.setFillColor(BLUE);self.c.setFont('Helvetica-Bold',9);self.c.drawString(x+3*mm,y-5*mm,'Scenario')
+    st=ParagraphStyle('covertext',fontName='Helvetica',fontSize=7.7,leading=8.9,textColor=BLUE)
+    text=case['mystery']+'\n\n'+case['story_intro']
+    q=p(text,st);_,hh=q.wrap(w-6*mm,h)
+    while hh>h-15*mm:
+     st.fontSize-=.1;st.leading-=.1;q=p(text,st);_,hh=q.wrap(w-6*mm,h)
+    q.drawOn(self.c,x+3*mm,y-12*mm-hh)
+    return y-h
    def field_box(self,*args):pass
   with tempfile.TemporaryDirectory() as td:
    coverpath=Path(td)/'cover.pdf';cover=Cover(coverpath,root/'assets/ERNEST-logo.svg');cover.cover(case);cover.save()
@@ -85,7 +110,7 @@ def poster(case,path,root):
  y=text('CSI-005 | Classroom Science Investigation',y,19,True)
  y=text('Trasporto del paziente\ne studio del movimento',y,34,True)
  y=text('Indagine per studenti di infermieristica',y,18)
- for title,body in [('Scenario','Un paziente riferisce nausea durante gli spostamenti. Il percorso verso la sala esami misura circa 100 passi. Due modalità di trasporto: quale rispetta la regola assegnata?'),('Il banco di indagine','Metro da 5 m, fogli a quadretti, matite, righello e calcolatrice. Gruppi di 4–5 persone. Lavoro su carta e brevi misure del passo; nessuna prova di trasporto su persone.'),('La missione','Misurate cinque passi per persona, tre volte. Stimate il percorso. Confrontate velocità e accelerazioni, disegnate i grafici e motivate la vostra decisione.'),('Gli indizi','A: da fermo a 72 m/min in 3 s; frenata in 3 s.\nB: da fermo a 4,5 km/h in 5 s; frenata in 5 s.\nTra le due fasi, velocità costante. Le variazioni sono uniformi.'),('La regola del caso','Accelerazione in valore assoluto non superiore a 0,30 m/s². È una soglia inventata per il gioco, non un limite clinico.'),('La domanda finale','Si può essere in movimento con accelerazione nulla? La risposta deve essere sostenuta dalle vostre prove.')]:
+ for title,body in [('Scenario','Un paziente riferisce nausea durante gli spostamenti. Il percorso verso la sala esami misura circa 100 passi. A accompagna il paziente alla sala esami, B lo riporta nella stanza. Chi rispetta la regola?'),('Il banco di indagine','Metro da 5 m, fogli a quadretti, matite, righello e calcolatrice. Gruppi fino a 10 persone. Lavoro su carta e brevi misure del passo; nessuna prova di trasporto su persone.'),('La missione','Misurate cinque passi per persona, tre volte. Stimate il percorso. Confrontate velocità e accelerazioni, disegnate i primi 10 secondi e il moto completo. Individuate chi rispetta la regola.'),('Gli indizi','A: da fermo a 72 m/min in 3 s; frenata in 3 s.\nB: da fermo a 4,5 km/h in 5 s; frenata in 5 s.\nTra le due fasi, velocità costante. Le variazioni sono uniformi.'),('La regola del caso','Accelerazione in valore assoluto non superiore a 0,30 m/s². È una soglia inventata per il gioco, non un limite clinico.'),('La domanda finale','Si può essere in movimento con accelerazione nulla? La risposta deve essere sostenuta dalle vostre prove.')]:
   y=text(title,y,18,True);y=text(body,y,15)
  assert y>25*mm,y
  c.drawImage(str(root/'assets/eu-funded-logo.png'),22*mm,7*mm,width=48*mm,height=13*mm,preserveAspectRatio=True,mask='auto');c.save()

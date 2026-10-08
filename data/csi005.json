@@ -5,7 +5,7 @@
   "age_group": "Studenti di infermieristica",
   "physics_topic": "Misura, velocità e accelerazione",
   "mystery": "Un paziente riferisce nausea durante gli spostamenti e deve essere accompagnato dal reparto alla sala esami. Il percorso viene descritto come lungo circa 100 passi. Per stimarne la distanza, assumete che il passo di chi effettua il trasporto abbia la stessa lunghezza del passo medio del vostro gruppo.",
-  "story_intro": "Due operatori propongono modalità diverse. Nel trasporto A si parte da fermi e si raggiungono 72 m/min in 3 secondi; la frenata finale dura 3 secondi. Nel trasporto B si raggiungono 4,5 km/h in 5 secondi e ci si ferma in 5 secondi. Tra partenza e frenata la velocità è costante, senza soste intermedie. Le variazioni di velocità sono uniformi.\n\nLa vostra squadra deve raccogliere le misure del passo, stimare il percorso, confrontare velocità e accelerazioni e rappresentare i primi 10 secondi di moto su un grafico. Stimerete poi il tempo di percorrenza e motiverete la scelta con i risultati.\n\nLa regola del caso richiede un’accelerazione in valore assoluto non superiore a 0,30 m/s², sia in partenza sia in frenata. È una soglia inventata per l’esercizio: non è un limite clinico né una raccomandazione di trasporto.",
+  "story_intro": "L’infermiere A accompagna il paziente dalla stanza alla sala esami. Parte da fermo e aumenta gradualmente la velocità, raggiungendo 72 m/min in 3 secondi. Prosegue a questa velocità e, in prossimità della sala esami, rallenta fino a fermarsi in 3 secondi.\n\nAl termine dell’esame, l’infermiere B riporta il paziente nella stanza, seguendo lo stesso percorso. Parte da fermo e aumenta gradualmente la velocità, raggiungendo 4,5 km/h in 5 secondi. Prosegue a questa velocità e, in prossimità della stanza, rallenta fino a fermarsi in 5 secondi.\n\nIn entrambi i tragitti non ci sono soste intermedie. Durante la partenza e la frenata, la velocità cambia della stessa quantità ogni secondo: l’accelerazione è quindi costante in ciascuna di queste fasi.\n\nMisurate il passo, stimate il percorso, confrontate velocità e accelerazioni e rappresentate i primi 10 secondi su un grafico. Stimerete poi il tempo di percorrenza e rappresenterete il moto completo su un secondo grafico.\n\nSupponiamo che il paziente stia meglio se l’accelerazione in valore assoluto non supera 0,30 m/s², sia in partenza sia in frenata (soglia inventata, non è un limite clinico!). Quale dei due infermieri ha rispettato questa regola?",
   "student": [
     {
       "type": "heading",
@@ -25,11 +25,11 @@
     },
     {
       "type": "text",
-      "text": "Due operatori propongono modalità diverse di trasporto. Dovete stimare la distanza, ricostruire i movimenti e scegliere la proposta che rispetta la regola assegnata, motivando la decisione con misure, calcoli e grafici."
+      "text": "L’infermiere A accompagna il paziente dalla stanza alla sala esami. Parte da fermo e aumenta gradualmente la velocità, raggiungendo 72 m/min in 3 secondi. Prosegue a questa velocità e, in prossimità della sala esami, rallenta fino a fermarsi in 3 secondi.\n\nAl termine dell’esame, l’infermiere B riporta il paziente nella stanza, seguendo lo stesso percorso. Parte da fermo e aumenta gradualmente la velocità, raggiungendo 4,5 km/h in 5 secondi. Prosegue a questa velocità e, in prossimità della stanza, rallenta fino a fermarsi in 5 secondi.\n\nIn entrambi i tragitti non ci sono soste intermedie. Durante la partenza e la frenata, la velocità cambia della stessa quantità ogni secondo: l’accelerazione è quindi costante in ciascuna di queste fasi."
     },
     {
       "type": "text",
-      "text": "Regola del caso: il valore assoluto dell’accelerazione non deve superare 0,30 m/s², sia in partenza sia in frenata. La soglia è inventata per l’attività: non è un limite clinico per prevenire la cinetosi né una raccomandazione di trasporto."
+      "text": "Supponiamo che il paziente stia meglio se l’accelerazione in valore assoluto non supera 0,30 m/s², sia in partenza sia in frenata (soglia inventata, non è un limite clinico!). Quale dei due infermieri ha rispettato questa regola?"
     },
     {
       "type": "heading",
@@ -37,7 +37,7 @@
     },
     {
       "type": "text",
-      "text": "Lavorate in gruppi di 4–5 persone con un metro a nastro da 5 m, fogli a quadretti, matite, righello e calcolatrice. Potete usare nastro adesivo rimovibile per segnare gli appoggi. Il lavoro si svolge su carta; ci si alza soltanto per misurare brevi sequenze di passi. Non si utilizzano carrelli, pupazzi o persone da trasportare."
+      "text": "Lavorate in gruppi fino a 10 persone con un metro a nastro da 5 m, fogli a quadretti, matite, righello e calcolatrice. Il lavoro si svolge su carta; ci si alza soltanto per misurare brevi sequenze di passi."
     },
     {
       "type": "heading",
@@ -45,7 +45,7 @@
     },
     {
       "type": "text",
-      "text": "1. Stimare la lunghezza di 100 passi e discutere la variabilità delle misure.\n2. Confrontare velocità e accelerazioni delle due proposte.\n3. Ricostruire i primi 10 secondi con un grafico velocità–tempo.\n4. Stimare il tempo del tragitto e redigere una decisione motivata."
+      "text": "1. Stimare la lunghezza di 100 passi e discutere la variabilità delle misure.\n2. Confrontare velocità e accelerazioni degli infermieri A e B.\n3. Ricostruire i primi 10 secondi con un grafico velocità–tempo.\n4. Stimare il tempo del tragitto e costruire il grafico velocità-tempo dell’intero tragitto."
     },
     {
       "type": "heading",
@@ -53,7 +53,7 @@
     },
     {
       "type": "text",
-      "text": "Per rendere una partenza più graduale, conta soltanto la velocità raggiunta? Scrivete la vostra ipotesi prima di leggere i dati dei due trasporti."
+      "text": "Per rendere una partenza più graduale, conta soltanto la velocità raggiunta? Scrivete la vostra ipotesi prima di analizzare le informazioni del problema."
     },
     {
       "type": "text",
@@ -72,7 +72,7 @@
     },
     {
       "type": "text",
-      "text": "Prima di misurare: quali dati servono? Basta il passo di una persona? È meglio misurare un passo isolato oppure più passi consecutivi?"
+      "text": "Prima di misurare: quali dati servono? Basta il passo di una persona? È meglio misurare un passo isolato oppure più passi consecutivi? Perché?"
     },
     {
       "type": "text",
@@ -92,7 +92,7 @@
     },
     {
       "type": "text",
-      "text": "Esempio di registrazione, senza dati già assegnati: distanza di 5 passi = ______ cm; lunghezza media di un passo nella prova = ______ ÷ 5 = ______ cm."
+      "text": "Esempio di registrazione: distanza di 5 passi = ______ cm; lunghezza media di un passo nella prova = ______ ÷ 5 = ______ cm."
     },
     {
       "type": "table",
@@ -138,12 +138,47 @@
           "",
           "",
           ""
+        ],
+        [
+          "6",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "7",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "8",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "9",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "10",
+          "",
+          "",
+          "",
+          ""
         ]
       ]
     },
     {
       "type": "text",
-      "text": "Per ogni persona calcolate la media delle tre prove; poi calcolate la media dei risultati delle persone che hanno effettivamente partecipato alle misure. In un gruppo di quattro non includete la quinta riga vuota nel calcolo."
+      "text": "Per ogni persona calcolate la media delle tre prove; poi calcolate la media dei risultati delle persone che hanno effettivamente partecipato alle misure. Non includete le righe vuote nel calcolo."
     },
     {
       "type": "text",
@@ -170,18 +205,46 @@
       "rows": [
         [
           "Partecipante",
-          "1",
-          "2",
-          "3",
-          "4",
-          "5"
+          "Semidispersione (cm)"
         ],
         [
-          "Semidispersione (cm)",
-          "",
-          "",
-          "",
-          "",
+          "1",
+          ""
+        ],
+        [
+          "2",
+          ""
+        ],
+        [
+          "3",
+          ""
+        ],
+        [
+          "4",
+          ""
+        ],
+        [
+          "5",
+          ""
+        ],
+        [
+          "6",
+          ""
+        ],
+        [
+          "7",
+          ""
+        ],
+        [
+          "8",
+          ""
+        ],
+        [
+          "9",
+          ""
+        ],
+        [
+          "10",
           ""
         ]
       ]
@@ -219,7 +282,7 @@
     },
     {
       "type": "heading",
-      "text": "Le due proposte di trasporto"
+      "text": "Il moto dei due infermieri A e B"
     },
     {
       "type": "text",
@@ -230,8 +293,8 @@
       "rows": [
         [
           "Fase",
-          "Trasporto A",
-          "Trasporto B"
+          "Infermiere A",
+          "Infermiere B"
         ],
         [
           "Partenza",
@@ -252,7 +315,7 @@
     },
     {
       "type": "text",
-      "text": "Prima dei calcoli, quale proposta sembra raggiungere la velocità maggiore? Motivate la previsione."
+      "text": "Prima dei calcoli, quale infermiere sembra raggiungere la velocità maggiore? Motivate la previsione."
     },
     {
       "type": "text",
@@ -291,7 +354,7 @@
     },
     {
       "type": "text",
-      "text": "Assumete positivo il verso del movimento. Per una variazione uniforme della velocità, l’accelerazione è il rapporto tra variazione di velocità e intervallo di tempo:"
+      "text": "Assumete positivo il verso del movimento di ciascun tragitto, facendo ripartire il tempo da zero per ogni infermiere. Per una variazione uniforme della velocità, l’accelerazione è il rapporto tra variazione di velocità e intervallo di tempo:"
     },
     {
       "type": "text",
@@ -306,8 +369,8 @@
       "rows": [
         [
           "Grandezza",
-          "Trasporto A",
-          "Trasporto B"
+          "Infermiere A",
+          "Infermiere B"
         ],
         [
           "Velocità raggiunta (m/s)",
@@ -330,7 +393,7 @@
           ""
         ],
         [
-          "Rispetta la regola del caso?",
+          "Rispetta la regola di questo problema?",
           "",
           ""
         ]
@@ -382,7 +445,7 @@
     },
     {
       "type": "text",
-      "text": "3. Quale proposta rispetta il criterio sia in partenza sia in frenata?"
+      "text": "3. Quale infermiere rispetta la regola di questo problema sia in partenza sia in frenata?"
     },
     {
       "type": "text",
@@ -413,7 +476,7 @@
     },
     {
       "type": "text",
-      "text": "1. Quale curva raggiunge il livello di velocità più alto?"
+      "text": "1. Quale curva raggiunge la velocità maggiore?"
     },
     {
       "type": "text",
@@ -471,8 +534,8 @@
       "rows": [
         [
           "Grandezza",
-          "Trasporto A",
-          "Trasporto B"
+          "Infermiere A",
+          "Infermiere B"
         ],
         [
           "Velocità in m/s",
@@ -526,12 +589,42 @@
       "text": "________________________________________________________________________________"
     },
     {
+      "type": "break"
+    },
+    {
+      "type": "heading",
+      "text": "6  Il grafico dell’intero tragitto"
+    },
+    {
+      "type": "text",
+      "text": "Rappresentate su questo secondo grafico il moto completo dei due infermieri: partenza, velocità costante e frenata. Fate partire il tempo da zero per ciascun tragitto e considerate positivo il suo verso di percorrenza. Scegliete una scala comune e inserite voi grandezze, numeri e unità sugli assi, oltre alla legenda A/B."
+    },
+    {
+      "type": "text",
+      "text": "Per collocare la frenata usate la distanza stimata dal gruppo. La distanza percorsa in ogni fase è l’area sotto il grafico velocità-tempo: un triangolo in partenza, un rettangolo a velocità costante e un triangolo in frenata. Sottraete dalla distanza totale le due aree triangolari e ricavate la durata della fase centrale. La prima stima distanza/velocità non è il tempo completo."
+    },
+    {
+      "type": "chart_full",
+      "solved": false
+    },
+    {
+      "type": "text",
+      "text": "Inizio frenata A: ______ s; arrivo A: ______ s.\nInizio frenata B: ______ s; arrivo B: ______ s."
+    },
+    {
+      "type": "text",
+      "text": "Verificate che l’area sotto ciascuna curva corrisponda alla distanza stimata."
+    },
+    {
+      "type": "break"
+    },
+    {
       "type": "heading",
       "text": "La decisione del gruppo"
     },
     {
       "type": "text",
-      "text": "Scegliamo il trasporto __________ perché ________________________________________"
+      "text": "Crediamo che la regola del problema sia stata rispettata dall’infermiere __________ perché ________________________________________"
     },
     {
       "type": "text",
@@ -601,11 +694,11 @@
     },
     {
       "type": "text",
-      "text": "Destinatari: studenti e studentesse di infermieristica. Gruppi di 4–5 persone. Durata proposta: 90 minuti, adattabile alle competenze iniziali. Il lavoro è svolto su carta, salvo brevi misure del passo; non sono previste simulazioni di trasporto di persone."
+      "text": "Destinatari: studenti e studentesse di infermieristica. Gruppi fino a 10 persone (75 studenti: circa 10 gruppi). Durata proposta: 90 minuti, adattabile alle competenze iniziali. Il lavoro è svolto su carta, salvo brevi misure del passo; non sono previste simulazioni di trasporto di persone."
     },
     {
       "type": "text",
-      "text": "Materiali per gruppo: metro da 5 m, fogli a quadretti, matite, righello, calcolatrice, eventuale nastro adesivo rimovibile. Distribuire le sei pagine della scheda studenti; trattenere questa guida. Verificare che lo spazio per camminare sia libero e che la sequenza di cinque passi sia misurabile con lo strumento disponibile."
+      "text": "Materiali per gruppo: metro da 5 m, fogli a quadretti, matite, righello, calcolatrice,  Distribuire il dossier studenti completo; trattenere questa guida. Verificare che lo spazio per camminare sia libero e che la sequenza di cinque passi sia misurabile con lo strumento disponibile."
     },
     {
       "type": "text",
@@ -641,12 +734,12 @@
         [
           "Grafici",
           "15",
-          "Curve A e B nei primi 10 secondi"
+          "Curve A e B: primi 10 secondi e tragitto completo"
         ],
         [
           "Tempi e decisione",
           "15",
-          "Stime e scelta argomentata"
+          "Stime, tempi completi e conclusione"
         ],
         [
           "Discussione finale",
@@ -786,7 +879,7 @@
     },
     {
       "type": "text",
-      "text": "Il gruppo sceglie B perché il valore assoluto dell’accelerazione è 0,25 m/s² sia in partenza sia in frenata, inferiore a 0,30 m/s². La distanza va riportata secondo le misure del gruppo. La velocità di B è maggiore, ma non lo è la sua accelerazione."
+      "text": "Il gruppo conclude che l’infermiere B rispetta la regola perché il valore assoluto dell’accelerazione è 0,25 m/s² sia in partenza sia in frenata, inferiore a 0,30 m/s². La distanza va riportata secondo le misure del gruppo. La velocità di B è maggiore, ma non lo è la sua accelerazione."
     },
     {
       "type": "heading",
@@ -809,7 +902,7 @@
     },
     {
       "type": "heading",
-      "text": "Valutazione e approfondimento facoltativo"
+      "text": "Valutazione e moto completo"
     },
     {
       "type": "heading",
@@ -840,7 +933,7 @@
         ],
         [
           "Grafico",
-          "Assi, scale, punti e pendenze corretti"
+          "Due grafici con assi, scale, pendenze e frenate corretti"
         ],
         [
           "Tempi",
@@ -858,7 +951,7 @@
     },
     {
       "type": "text",
-      "text": "Approfondimento per il docente, non necessario per completare la scheda. Con partenza e frenata uniformi e simmetriche, durata di ciascuna fase τ e velocità di crociera v, la distanza totale delle due fasi è vτ. Per un percorso D sufficientemente lungo, il tempo completo è T = D/v + τ."
+      "text": "Soluzione per il secondo grafico. Con partenza e frenata uniformi e simmetriche, durata di ciascuna fase τ e velocità di crociera v, la distanza totale delle due fasi è vτ. Per un percorso D sufficientemente lungo, il tempo completo è T = D/v + τ."
     },
     {
       "type": "text",
@@ -875,6 +968,18 @@
     {
       "type": "text",
       "text": "Confondere passo e falcata; dividere per cinque anche una media già espressa per passo; mediare includendo righe vuote; confrontare numeri con unità diverse; interpretare accelerazione negativa come moto all’indietro; confondere velocità costante e immobilità; presentare la soglia inventata come prescrizione clinica."
+    },
+    {
+      "type": "heading",
+      "text": "Secondo grafico: esempio su 65 m"
+    },
+    {
+      "type": "text",
+      "text": "Si sceglie separatamente positivo il verso di ciascun tragitto: B torna indietro, ma il grafico confronta i due profili con questa convenzione. A: (0; 0), (3; 1,20), (54,17; 1,20), (57,17; 0). B: (0; 0), (5; 1,25), (52; 1,25), (57; 0). Tempi in secondi, velocità in m/s. Le aree sotto entrambe le curve valgono 65 m. Per le altre distanze misurate occorre ricalcolare i tempi."
+    },
+    {
+      "type": "chart_full",
+      "solved": true
     }
   ]
 }
