@@ -1,0 +1,752 @@
+{
+  "case_id": "CSI-007",
+  "title": "Il livello fa la differenza",
+  "subtitle": "Fluidi, pressione e portata",
+  "age_group": "Studenti di infermieristica",
+  "physics_topic": "Idrostatica e Bernoulli",
+  "mystery": "In un sistema di infusione per gravità, il liquido si trova più in alto del punto di ingresso nel paziente. Quale ruolo ha questo dislivello?",
+  "story_intro": "Indagate con un modello: una bottiglia aperta con un piccolo foro. Confrontate il tempo necessario per raccogliere 100 mL di acqua partendo da 5 cm e da 20 cm sopra il foro.\n\nFormulate una previsione, ripetete le misure e sostenete la conclusione con i dati.\n\nIl modello studia il ruolo dell’altezza. In una vera infusione contano anche resistenze dei dispositivi e pressione nel punto di ingresso.",
+  "student": [
+    {
+      "type": "heading",
+      "text": "CSI-007"
+    },
+    {
+      "type": "heading",
+      "text": "Il livello fa la differenza"
+    },
+    {
+      "type": "heading",
+      "text": "1  Aprire il caso"
+    },
+    {
+      "type": "text",
+      "text": "Corso di Studi in Infermieristica - Fisica Applicata"
+    },
+    {
+      "type": "text",
+      "text": "Gruppo __________________  Data ______________"
+    },
+    {
+      "type": "text",
+      "text": "La domanda: quanto tempo occorre per raccogliere lo stesso volume d’acqua con due diversi livelli iniziali?"
+    },
+    {
+      "type": "heading",
+      "text": "Il banco di indagine"
+    },
+    {
+      "type": "text",
+      "text": "Bottiglia con foro già preparato, acqua, recipiente graduato da almeno 100 mL, bacinella per gli schizzi, cronometro e calcolatrice. Aggiungete righello e pennarello per segnare i livelli."
+    },
+    {
+      "type": "text",
+      "text": "Lavorate individualmente o in gruppi di 3-4 persone. La bottiglia resta verticale, stabile e senza tappo. Usate sempre lo stesso foro e non schiacciate la bottiglia."
+    },
+    {
+      "type": "heading",
+      "text": "La missione"
+    },
+    {
+      "type": "text",
+      "text": "Prevedere; misurare cinque volte per livello; calcolare media e variabilità; confrontare le portate; interpretare con pressione e Bernoulli."
+    },
+    {
+      "type": "text",
+      "text": "Il foro deve scaricare liberamente nel recipiente graduato, senza essere immerso nell’acqua raccolta. La bacinella contiene solo gli schizzi."
+    },
+    {
+      "type": "break"
+    },
+    {
+      "type": "heading",
+      "text": "2  Le ipotesi iniziali"
+    },
+    {
+      "type": "text",
+      "text": "1. L’acqua uscirà più rapidamente con il livello a 5 cm oppure a 20 cm sopra il foro? Motivate la previsione."
+    },
+    {
+      "type": "text",
+      "text": "______________________________"
+    },
+    {
+      "type": "text",
+      "text": "______________________________"
+    },
+    {
+      "type": "text",
+      "text": "______________________________"
+    },
+    {
+      "type": "text",
+      "text": "______________________________"
+    },
+    {
+      "type": "text",
+      "text": "______________________________"
+    },
+    {
+      "type": "text",
+      "text": "2. Se l’altezza diventa quattro volte maggiore, il tempo per raccogliere 100 mL diventa quattro volte più piccolo? Perché?"
+    },
+    {
+      "type": "text",
+      "text": "______________________________"
+    },
+    {
+      "type": "text",
+      "text": "______________________________"
+    },
+    {
+      "type": "text",
+      "text": "______________________________"
+    },
+    {
+      "type": "text",
+      "text": "______________________________"
+    },
+    {
+      "type": "text",
+      "text": "______________________________"
+    },
+    {
+      "type": "text",
+      "text": "Che cosa cambiate? Che cosa misurate? Quali condizioni dovete mantenere uguali?"
+    },
+    {
+      "type": "text",
+      "text": "______________________________"
+    },
+    {
+      "type": "text",
+      "text": "______________________________"
+    },
+    {
+      "type": "text",
+      "text": "______________________________"
+    },
+    {
+      "type": "break"
+    },
+    {
+      "type": "heading",
+      "text": "3  Raccogliere le prove"
+    },
+    {
+      "type": "text",
+      "text": "1. Segnate 5 cm e 20 cm sopra il centro del foro. Chiudete temporaneamente il foro e riempite fino al livello basso.\n2. Posizionate il recipiente graduato vuoto per raccogliere tutto il getto. Aprite il foro e avviate il cronometro insieme.\n3. Fermate il tempo quando il volume raccolto raggiunge 100 mL. Annotate i secondi.\n4. Svuotate il recipiente e ripristinate il livello iniziale. Ripetete fino a ottenere cinque misure.\n5. Eseguite la stessa procedura dal livello alto."
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "Prova",
+          "Tempo a 5 cm (s)",
+          "Tempo a 20 cm (s)"
+        ],
+        [
+          "1",
+          "",
+          ""
+        ],
+        [
+          "2",
+          "",
+          ""
+        ],
+        [
+          "3",
+          "",
+          ""
+        ],
+        [
+          "4",
+          "",
+          ""
+        ],
+        [
+          "5",
+          "",
+          ""
+        ]
+      ]
+    },
+    {
+      "type": "text",
+      "text": "Controllate quanto scende il livello durante la raccolta. Se a 5 cm non si possono raccogliere 100 mL prima che il getto si arresti, avvisate il docente."
+    },
+    {
+      "type": "text",
+      "text": "Osservazioni sul getto, sul livello finale e sulle difficoltà:"
+    },
+    {
+      "type": "text",
+      "text": "______________________________"
+    },
+    {
+      "type": "text",
+      "text": "______________________________"
+    },
+    {
+      "type": "break"
+    },
+    {
+      "type": "heading",
+      "text": "4  Tempi e variabilità"
+    },
+    {
+      "type": "text",
+      "text": "Per ciascun livello calcolate:"
+    },
+    {
+      "type": "text",
+      "text": "Tempo medio = (t1 + t2 + t3 + t4 + t5) / 5\nSemidispersione S = (tempo massimo - tempo minimo) / 2"
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "Grandezza",
+          "5 cm",
+          "20 cm"
+        ],
+        [
+          "Tempo minimo (s)",
+          "",
+          ""
+        ],
+        [
+          "Tempo massimo (s)",
+          "",
+          ""
+        ],
+        [
+          "Tempo medio (s)",
+          "",
+          ""
+        ],
+        [
+          "Semidispersione S (s)",
+          "",
+          ""
+        ]
+      ]
+    },
+    {
+      "type": "text",
+      "text": "S descrive la variabilità delle cinque prove; non comprende tutte le fonti di incertezza, per esempio un errore sistematico nel segnare il livello."
+    },
+    {
+      "type": "text",
+      "text": "1. In quale condizione il tempo medio è minore?"
+    },
+    {
+      "type": "text",
+      "text": "______________________________"
+    },
+    {
+      "type": "text",
+      "text": "______________________________"
+    },
+    {
+      "type": "text",
+      "text": "2. I tempi della stessa condizione coincidono? Indicate due possibili cause delle differenze."
+    },
+    {
+      "type": "text",
+      "text": "______________________________"
+    },
+    {
+      "type": "text",
+      "text": "______________________________"
+    },
+    {
+      "type": "text",
+      "text": "______________________________"
+    },
+    {
+      "type": "break"
+    },
+    {
+      "type": "heading",
+      "text": "5  Portate a confronto"
+    },
+    {
+      "type": "text",
+      "text": "La portata è il volume che passa nell’unità di tempo. Qui la esprimiamo in mL/s."
+    },
+    {
+      "type": "text",
+      "text": "Portata media stimata Q = volume raccolto / tempo medio"
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "Livello",
+          "Volume (mL)",
+          "Q (mL/s)"
+        ],
+        [
+          "5 cm",
+          "100",
+          ""
+        ],
+        [
+          "20 cm",
+          "100",
+          ""
+        ]
+      ]
+    },
+    {
+      "type": "text",
+      "text": "Mostrate i calcoli con le unità di misura."
+    },
+    {
+      "type": "text",
+      "text": "______________________________"
+    },
+    {
+      "type": "text",
+      "text": "______________________________"
+    },
+    {
+      "type": "text",
+      "text": "______________________________"
+    },
+    {
+      "type": "text",
+      "text": "1. In quale condizione passa più acqua in un secondo?"
+    },
+    {
+      "type": "text",
+      "text": "______________________________"
+    },
+    {
+      "type": "text",
+      "text": "______________________________"
+    },
+    {
+      "type": "text",
+      "text": "2. Calcolate Q a 20 cm / Q a 5 cm e confrontatelo con tempo medio a 5 cm / tempo medio a 20 cm. Che relazione osservate?"
+    },
+    {
+      "type": "text",
+      "text": "______________________________"
+    },
+    {
+      "type": "text",
+      "text": "______________________________"
+    },
+    {
+      "type": "text",
+      "text": "______________________________"
+    },
+    {
+      "type": "text",
+      "text": "Queste portate si riferiscono all’intera raccolta: il livello e la velocità possono diminuire durante ciascuna prova."
+    },
+    {
+      "type": "break"
+    },
+    {
+      "type": "heading",
+      "text": "6  Acqua ferma e pressione"
+    },
+    {
+      "type": "text",
+      "text": "Considerate il foro chiuso: l’acqua è ferma e la superficie è esposta all’atmosfera. L’altezza h è misurata dalla superficie al centro del foro."
+    },
+    {
+      "type": "text",
+      "text": "Densità dell’acqua = 1000 kg/m³\ng = 10 m/s²\nPressione atmosferica assunta = 100 000 Pa"
+    },
+    {
+      "type": "text",
+      "text": "Sovrapressione idrostatica = densità × g × h\nPressione totale = pressione atmosferica + sovrapressione"
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "Grandezza",
+          "5 cm",
+          "20 cm"
+        ],
+        [
+          "Altezza h (m)",
+          "",
+          ""
+        ],
+        [
+          "Sovrapressione (Pa)",
+          "",
+          ""
+        ],
+        [
+          "Pressione totale (Pa)",
+          "",
+          ""
+        ]
+      ]
+    },
+    {
+      "type": "text",
+      "text": "1. Mostrate le conversioni e i calcoli."
+    },
+    {
+      "type": "text",
+      "text": "______________________________"
+    },
+    {
+      "type": "text",
+      "text": "______________________________"
+    },
+    {
+      "type": "text",
+      "text": "______________________________"
+    },
+    {
+      "type": "text",
+      "text": "2. Quando h passa da 5 a 20 cm, di quanto aumenta la sovrapressione, in Pa e come fattore? Anche la pressione totale quadruplica?"
+    },
+    {
+      "type": "text",
+      "text": "______________________________"
+    },
+    {
+      "type": "text",
+      "text": "______________________________"
+    },
+    {
+      "type": "text",
+      "text": "______________________________"
+    },
+    {
+      "type": "break"
+    },
+    {
+      "type": "heading",
+      "text": "7  Acqua in movimento"
+    },
+    {
+      "type": "text",
+      "text": "Bernoulli collega pressione, velocità e altezza in un fluido ideale in moto stazionario, trascurando le perdite di energia. Qui lo usiamo come approssimazione istante per istante."
+    },
+    {
+      "type": "text",
+      "text": "Con superficie e getto alla pressione atmosferica e bottiglia molto più larga del foro, la velocità ideale di uscita è v = radice quadrata di (2 × g × h)."
+    },
+    {
+      "type": "text",
+      "text": "Se h quadruplica, la velocità raddoppia. Con lo stesso foro raddoppia anche la portata. Il tempo per lo stesso volume si dimezza soltanto se il livello resta praticamente costante durante la raccolta."
+    },
+    {
+      "type": "text",
+      "text": "Rapporto R = tempo medio a 5 cm / tempo medio a 20 cm\nR misurato = __________________"
+    },
+    {
+      "type": "text",
+      "text": "1. Confrontate R con il valore ideale circa 2. La variabilità delle prove rende convincente il confronto?"
+    },
+    {
+      "type": "text",
+      "text": "______________________________"
+    },
+    {
+      "type": "text",
+      "text": "______________________________"
+    },
+    {
+      "type": "text",
+      "text": "______________________________"
+    },
+    {
+      "type": "text",
+      "text": "2. Se R è diverso da 2, quali aspetti dell’esperimento possono spiegare lo scarto? Considerate anche l’abbassamento del livello."
+    },
+    {
+      "type": "text",
+      "text": "______________________________"
+    },
+    {
+      "type": "text",
+      "text": "______________________________"
+    },
+    {
+      "type": "text",
+      "text": "______________________________"
+    },
+    {
+      "type": "break"
+    },
+    {
+      "type": "heading",
+      "text": "8  Chiudere il caso"
+    },
+    {
+      "type": "text",
+      "text": "1. Rileggete le due ipotesi iniziali. Quali dati le confermano o le smentiscono?"
+    },
+    {
+      "type": "text",
+      "text": "______________________________"
+    },
+    {
+      "type": "text",
+      "text": "______________________________"
+    },
+    {
+      "type": "text",
+      "text": "______________________________"
+    },
+    {
+      "type": "text",
+      "text": "2. L’altezza è quadruplicata: anche la portata è quadruplicata? Citate i risultati."
+    },
+    {
+      "type": "text",
+      "text": "______________________________"
+    },
+    {
+      "type": "text",
+      "text": "______________________________"
+    },
+    {
+      "type": "text",
+      "text": "______________________________"
+    },
+    {
+      "type": "text",
+      "text": "3. Nel modello, quale modifica del dislivello tende ad aumentare la portata, a parità delle altre condizioni? Perché questa osservazione non basta a stabilire la portata di un’infusione reale?"
+    },
+    {
+      "type": "text",
+      "text": "______________________________"
+    },
+    {
+      "type": "text",
+      "text": "______________________________"
+    },
+    {
+      "type": "text",
+      "text": "______________________________"
+    },
+    {
+      "type": "text",
+      "text": "______________________________"
+    },
+    {
+      "type": "text",
+      "text": "Conclusione del gruppo: indicate un risultato numerico, la spiegazione fisica e un limite del modello."
+    },
+    {
+      "type": "text",
+      "text": "______________________________"
+    },
+    {
+      "type": "text",
+      "text": "______________________________"
+    },
+    {
+      "type": "text",
+      "text": "______________________________"
+    },
+    {
+      "type": "text",
+      "text": "Prima della consegna: controllate unità, conversioni, medie, semidispersioni e coerenza fra conclusioni e dati."
+    }
+  ],
+  "teacher": [
+    {
+      "type": "heading",
+      "text": "Obiettivi e preparazione"
+    },
+    {
+      "type": "text",
+      "text": "CSI-007 - Il livello fa la differenza\nDestinatari: studenti di infermieristica.\nOrganizzazione: individuale o gruppi di 3-4.\nDurata proposta: 60-75 minuti."
+    },
+    {
+      "type": "text",
+      "text": "Obiettivi: distinguere volume e portata; stimare media e variabilità; convertire cm in m; distinguere sovrapressione e pressione assoluta; riconoscere ipotesi e limiti del modello di Bernoulli."
+    },
+    {
+      "type": "heading",
+      "text": "Prima della lezione"
+    },
+    {
+      "type": "text",
+      "text": "Preparate voi il piccolo foro e controllate l’assenza di bordi taglienti. Segnate le altezze dal centro del foro. Usate una bottiglia stabile, aperta, senza deformarla; sostenetela se necessario affinché il getto entri nel recipiente graduato. Tenete il foro sopra l’acqua raccolta."
+    },
+    {
+      "type": "text",
+      "text": "Provate entrambe le condizioni: il volume disponibile sopra il foro a 5 cm deve superare 100 mL. Preferite un contenitore largo, nel quale il prelievo abbassi poco il livello. Se questo non è possibile, mantenete il confronto sperimentale ma non presentate 2 come risultato esatto atteso."
+    },
+    {
+      "type": "text",
+      "text": "Usate solo acqua e materiale da banco, nessun dispositivo collegato a persone. Asciugate gli schizzi e tenete lontani apparecchi elettrici."
+    },
+    {
+      "type": "break"
+    },
+    {
+      "type": "heading",
+      "text": "Conduzione e trattamento dati"
+    },
+    {
+      "type": "text",
+      "text": "Tempi proposti: 10 min per scenario e ipotesi; 20-25 min per dieci misure; 15 min per calcoli; 15-25 min per pressione, confronto e discussione."
+    },
+    {
+      "type": "text",
+      "text": "Nei gruppi assegnate riempimento/apertura, cronometro, lettura del volume e registrazione. Per confronti equi, mantenete le modalità di avvio e arresto il più possibile costanti nei due livelli."
+    },
+    {
+      "type": "heading",
+      "text": "Soluzioni dei calcoli sperimentali"
+    },
+    {
+      "type": "text",
+      "text": "Non esistono tempi o portate numerici prestabiliti: dipendono da foro e contenitore. Non sostituire i dati osservati con valori inventati."
+    },
+    {
+      "type": "text",
+      "text": "Per ciascun livello: media = somma dei cinque tempi / 5; S = (massimo - minimo) / 2; Q stimata = 100 / tempo medio, in mL/s."
+    },
+    {
+      "type": "text",
+      "text": "Poiché il volume è uguale: Q20 / Q5 = tempo medio a 5 cm / tempo medio a 20 cm. Questa identità vale per le stime definite nel dossier. Il rapporto 100 / media dei tempi non coincide in generale con la media aritmetica delle cinque portate 100 / ti."
+    },
+    {
+      "type": "text",
+      "text": "La semidispersione non è una deviazione standard né un intervallo di confidenza. Discutere la dispersione senza attribuirle un significato statistico non giustificato."
+    },
+    {
+      "type": "text",
+      "text": "Possibili variazioni: reazione al cronometro, lettura dei 100 mL, riempimento non identico, acqua persa, deformazione della bottiglia."
+    },
+    {
+      "type": "break"
+    },
+    {
+      "type": "heading",
+      "text": "Soluzioni di pressione e Bernoulli"
+    },
+    {
+      "type": "text",
+      "text": "Con foro chiuso e acqua ferma: sovrapressione = densità × g × h. Nel dossier si aggiunge il valore convenzionale p atmosferica = 100 000 Pa per rendere calcolabile la pressione totale."
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "Grandezza",
+          "5 cm",
+          "20 cm"
+        ],
+        [
+          "h (m)",
+          "0,05",
+          "0,20"
+        ],
+        [
+          "Sovrapressione (Pa)",
+          "500",
+          "2000"
+        ],
+        [
+          "Pressione totale (Pa)",
+          "100 500",
+          "102 000"
+        ]
+      ]
+    },
+    {
+      "type": "text",
+      "text": "La sovrapressione aumenta di 1500 Pa e diventa quattro volte maggiore. La pressione totale aumenta degli stessi 1500 Pa ma non quadruplica."
+    },
+    {
+      "type": "heading",
+      "text": "Il modello ideale"
+    },
+    {
+      "type": "text",
+      "text": "Bernoulli tra superficie e getto: le pressioni atmosferiche si cancellano. Se la velocità della superficie è trascurabile e non vi sono perdite, v = radice di (2gh). Con g = 10 m/s²: v5 = 1 m/s; v20 = 2 m/s. Sono velocità ideali iniziali, non portate misurate."
+    },
+    {
+      "type": "text",
+      "text": "Per area del foro A fissa, Q = A × v. Con livello quasi costante, Q20/Q5 = 2 e t5/t20 = 2. Senza conoscere A non si possono ricavare tempi numerici per 100 mL."
+    },
+    {
+      "type": "text",
+      "text": "Con foro aperto, non attribuire al getto libero la pressione atmosferica più densità × g × h: la relazione di Stevino qui è stata applicata alla situazione statica, a foro chiuso."
+    },
+    {
+      "type": "break"
+    },
+    {
+      "type": "heading",
+      "text": "Interpretazione e chiusura"
+    },
+    {
+      "type": "heading",
+      "text": "Quando il livello si abbassa"
+    },
+    {
+      "type": "text",
+      "text": "Durante lo svuotamento h diminuisce, quindi diminuiscono velocità e portata. La stessa caduta di livello pesa proporzionalmente di più sui 5 cm. Il rapporto fra i tempi di raccolta non deve quindi coincidere esattamente con il rapporto fra le velocità iniziali."
+    },
+    {
+      "type": "text",
+      "text": "Approfondimento facoltativo: per contenitore cilindrico di sezione B e foro di area A, nel modello ideale il tempo di raccolta è t = [2B / (A × radice di (2g))] × [radice di h iniziale - radice di h finale], con h finale = h iniziale - V/B. Usare unità SI e h finale positiva."
+    },
+    {
+      "type": "heading",
+      "text": "Risposta conclusiva attesa"
+    },
+    {
+      "type": "text",
+      "text": "Nel modello, aumentare il dislivello tende ad aumentare la portata, a condizioni comparabili. Il confronto sperimentale deve essere sostenuto dai tempi e dalle portate effettivamente misurati. Se i dati non mostrano una differenza chiara, discutere precisione e procedura senza forzare la conclusione."
+    },
+    {
+      "type": "text",
+      "text": "Il sistema di infusione è il contesto motivante: tubi, dispositivi e pressione a valle rendono il sistema reale diverso dal foro libero. L’attività non fornisce una procedura per modificare un’infusione."
+    },
+    {
+      "type": "heading",
+      "text": "Discussione e valutazione"
+    },
+    {
+      "type": "text",
+      "text": "Chiedere: quale pressione quadruplica? Perché il tempo non diventa un quarto? Che cosa cambia se il livello cala molto? Valutare completezza delle dieci misure, unità, correttezza dei calcoli, controllo delle condizioni e conclusione sostenuta dai dati."
+    }
+  ],
+  "poster": [
+    [
+      "Il caso",
+      "Una bottiglia aperta, un piccolo foro e due livelli iniziali: 5 cm e 20 cm. Quanto tempo serve per raccogliere 100 mL?"
+    ],
+    [
+      "La sfida",
+      "Altezza quattro volte maggiore: anche la portata diventa quattro volte maggiore? Formulate un’ipotesi prima di misurare."
+    ],
+    [
+      "Le prove",
+      "Cinque misure per livello. Stessa bottiglia, stesso foro, stesso volume raccolto. Ripristinate ogni volta il livello iniziale."
+    ],
+    [
+      "La missione",
+      "Calcolate tempi medi, semidispersioni e portate. Collegate i risultati a pressione idrostatica e Bernoulli. Chiudete il caso con una conclusione sostenuta dai dati."
+    ],
+    [
+      "Il banco di indagine",
+      "Acqua, bottiglia predisposta, recipiente graduato, bacinella, cronometro, righello e calcolatrice. Individualmente o in gruppi di 3-4."
+    ],
+    [
+      "Il collegamento",
+      "Un modello per discutere il ruolo del dislivello nell’infusione per gravità. I dispositivi reali hanno resistenze e pressioni a valle che il modello non riproduce."
+    ]
+  ]
+}
