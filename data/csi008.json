@@ -1,0 +1,794 @@
+{
+  "case_id": "CSI-008",
+  "title": "La rampa del mistero",
+  "subtitle": "Forze, lavoro ed energia",
+  "age_group": "Studenti di infermieristica",
+  "physics_topic": "Leggi di Newton, attrito, lavoro ed energia",
+  "mystery": "Nel magazzino di un reparto una cassetta di materiale deve raggiungere un ripiano rialzato. Due rampe arrivano alla stessa altezza: una è corta e ripida, l’altra lunga e dolce.",
+  "story_intro": "Tre operatori non sono d’accordo: chi fa meno forza compie anche meno lavoro? Oppure conta soltanto l’altezza raggiunta?\n\nRicostruite il problema con un modello da banco. Misurate, confrontate le testimonianze e chiudete il caso con prove scientifiche.",
+  "student": [
+    {
+      "type": "heading",
+      "text": "CSI-008"
+    },
+    {
+      "type": "heading",
+      "text": "La rampa del mistero"
+    },
+    {
+      "type": "heading",
+      "text": "1  Le testimonianze"
+    },
+    {
+      "type": "text",
+      "text": "Corso di Studi in Infermieristica - Fisica Applicata\nGruppo __________________  Data ______________"
+    },
+    {
+      "type": "text",
+      "text": "La cassetta deve arrivare sullo stesso ripiano. Si può sollevarla verticalmente oppure trascinarla su una delle due rampe."
+    },
+    {
+      "type": "heading",
+      "text": "Tre versioni da verificare"
+    },
+    {
+      "type": "text",
+      "text": "Operatore A: «La rampa lunga richiede meno forza: quindi serve anche meno lavoro».\n\nOperatore B: «La cassetta arriva alla stessa altezza: il lavoro necessario è sempre uguale».\n\nOperatore C: «Dipende anche dall’attrito: il percorso più lungo potrebbe richiedere più lavoro»."
+    },
+    {
+      "type": "heading",
+      "text": "La missione"
+    },
+    {
+      "type": "text",
+      "text": "Stabilite quali affermazioni sono sostenute dai dati e a quali condizioni. Confrontate sollevamento verticale, rampa corta e rampa lunga, usando lo stesso carico e lo stesso dislivello."
+    },
+    {
+      "type": "text",
+      "text": "Il caso riguarda il lavoro meccanico sul carico. La sensazione di fatica non è una misura del lavoro in joule."
+    },
+    {
+      "type": "text",
+      "text": "Indagine in gruppi di 3-4 persone, con un modello da banco. Durata proposta: 60-75 minuti."
+    },
+    {
+      "type": "break"
+    },
+    {
+      "type": "heading",
+      "text": "2  Prima di misurare"
+    },
+    {
+      "type": "text",
+      "text": "1. Quale percorso richiederà meno forza? Quale meno lavoro? Motivate entrambe le previsioni."
+    },
+    {
+      "type": "text",
+      "text": "______________________________"
+    },
+    {
+      "type": "text",
+      "text": "______________________________"
+    },
+    {
+      "type": "text",
+      "text": "______________________________"
+    },
+    {
+      "type": "text",
+      "text": "______________________________"
+    },
+    {
+      "type": "text",
+      "text": "2. Che cosa cambiate? Che cosa mantenete uguale per rendere equo il confronto?"
+    },
+    {
+      "type": "text",
+      "text": "______________________________"
+    },
+    {
+      "type": "text",
+      "text": "______________________________"
+    },
+    {
+      "type": "text",
+      "text": "______________________________"
+    },
+    {
+      "type": "heading",
+      "text": "Disegnare le forze"
+    },
+    {
+      "type": "text",
+      "text": "Disegnate sul blocco le forze durante la salita lungo una rampa. Indicate direzione e verso. Il dinamometro tira parallelamente alla rampa."
+    },
+    {
+      "type": "sketch",
+      "height": 32
+    },
+    {
+      "type": "text",
+      "text": "Se il blocco sale a velocità costante, che cosa potete dire della risultante delle forze?"
+    },
+    {
+      "type": "text",
+      "text": "______________________________"
+    },
+    {
+      "type": "text",
+      "text": "______________________________"
+    },
+    {
+      "type": "break"
+    },
+    {
+      "type": "heading",
+      "text": "3  Il banco di indagine"
+    },
+    {
+      "type": "text",
+      "text": "Materiali: piccolo blocco o scatolina con carico fissato e gancio, dinamometro adatto, bilancia, righello o metro, due rampe rigide con lo stesso rivestimento, supporti stabili. Il blocco scivola: non usate ruote."
+    },
+    {
+      "type": "ramps"
+    },
+    {
+      "type": "text",
+      "text": "Misurate la massa totale m e l’altezza verticale h. Misurate s lungo ciascuna rampa, fra partenza e arrivo. Nei tre percorsi il centro del blocco deve salire dello stesso dislivello h."
+    },
+    {
+      "type": "text",
+      "text": "m = __________ kg      h = __________ m\ns corta = __________ m      s lunga = __________ m"
+    },
+    {
+      "type": "heading",
+      "text": "Preparare prove confrontabili"
+    },
+    {
+      "type": "text",
+      "text": "Controllate lo zero del dinamometro nell’orientamento di uso. Segnate tre punti equidistanti nella parte centrale di ogni percorso per leggere la forza. Usate lo stesso lato del blocco sulle due rampe."
+    },
+    {
+      "type": "text",
+      "text": "Trascinate lentamente, con velocità il più possibile costante. Non sollevate il blocco dalla rampa con il filo. Non includete il picco di avvio nella forza di scorrimento."
+    },
+    {
+      "type": "text",
+      "text": "Fissate rampe e carico; lavorate vicino al banco con carichi piccoli. Un compagno controlla che il blocco non cada durante il riposizionamento."
+    },
+    {
+      "type": "break"
+    },
+    {
+      "type": "heading",
+      "text": "4  Le misure"
+    },
+    {
+      "type": "text",
+      "text": "Per ogni percorso eseguite tre prove. In ogni prova leggete la forza ai tre punti segnati durante il moto regolare e calcolatene la media F della prova. Conservate le tre letture sui fogli del gruppo."
+    },
+    {
+      "type": "text",
+      "text": "Esempio di registrazione, senza valori suggeriti:\nF1 = ____ N; F2 = ____ N; F3 = ____ N\nF della prova = (F1 + F2 + F3) / 3"
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "Percorso",
+          "Prova 1\nF (N)",
+          "Prova 2\nF (N)",
+          "Prova 3\nF (N)"
+        ],
+        [
+          "Verticale",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Rampa corta",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Rampa lunga",
+          "",
+          "",
+          ""
+        ]
+      ],
+      "widths": [
+        0.31,
+        0.23,
+        0.23,
+        0.23
+      ]
+    },
+    {
+      "type": "text",
+      "text": "Nel sollevamento verticale tirate verso l’alto; sulle rampe tirate lungo la superficie. Riportate ogni volta il carico alla partenza e controllate che massa, dislivello e superficie non cambino."
+    },
+    {
+      "type": "text",
+      "text": "Calcolate la media delle tre prove e la semidispersione S = (F massima - F minima) / 2 delle tre medie di prova."
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "Percorso",
+          "F media (N)",
+          "S (N)"
+        ],
+        [
+          "Verticale",
+          "",
+          ""
+        ],
+        [
+          "Rampa corta",
+          "",
+          ""
+        ],
+        [
+          "Rampa lunga",
+          "",
+          ""
+        ]
+      ]
+    },
+    {
+      "type": "text",
+      "text": "Le letture erano abbastanza stabili? Annotate scatti, variazioni di velocità o altre difficoltà."
+    },
+    {
+      "type": "text",
+      "text": "______________________________"
+    },
+    {
+      "type": "text",
+      "text": "______________________________"
+    },
+    {
+      "type": "break"
+    },
+    {
+      "type": "heading",
+      "text": "5  Dalla forza al lavoro"
+    },
+    {
+      "type": "text",
+      "text": "Usate g = 10 m/s² come approssimazione. Convertite le misure in kg, m e N prima di calcolare."
+    },
+    {
+      "type": "text",
+      "text": "Peso del carico: P = m × g = __________ N\nAumento di energia potenziale: ΔU = m × g × h = __________ J"
+    },
+    {
+      "type": "text",
+      "text": "La forza di trazione è parallela allo spostamento. Se resta circa costante, il suo lavoro si stima con L = F media × s. Per il percorso verticale, s = h."
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "Percorso",
+          "s (m)",
+          "F media\n(N)",
+          "L (J)"
+        ],
+        [
+          "Verticale",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Rampa corta",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Rampa lunga",
+          "",
+          "",
+          ""
+        ]
+      ],
+      "widths": [
+        0.31,
+        0.23,
+        0.23,
+        0.23
+      ]
+    },
+    {
+      "type": "text",
+      "text": "Mostrate almeno un calcolo completo con le unità."
+    },
+    {
+      "type": "text",
+      "text": "______________________________"
+    },
+    {
+      "type": "text",
+      "text": "______________________________"
+    },
+    {
+      "type": "text",
+      "text": "Confrontate il lavoro della trazione con l’aumento di energia potenziale, uguale nei tre percorsi."
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "Percorso",
+          "ΔU (J)",
+          "L - ΔU (J)"
+        ],
+        [
+          "Verticale",
+          "",
+          ""
+        ],
+        [
+          "Rampa corta",
+          "",
+          ""
+        ],
+        [
+          "Rampa lunga",
+          "",
+          ""
+        ]
+      ]
+    },
+    {
+      "type": "text",
+      "text": "Che cosa potrebbe spiegare le differenze? Considerate anche la qualità delle misure."
+    },
+    {
+      "type": "text",
+      "text": "______________________________"
+    },
+    {
+      "type": "break"
+    },
+    {
+      "type": "heading",
+      "text": "6  Rendere visibili le prove"
+    },
+    {
+      "type": "text",
+      "text": "Costruite due grafici a barre usando le medie misurate. Scegliete e scrivete scale numeriche leggibili. V = verticale, C = rampa corta, L = rampa lunga."
+    },
+    {
+      "type": "bar_grid",
+      "label": "Forza media (N)"
+    },
+    {
+      "type": "bar_grid",
+      "label": "Lavoro della trazione (J)"
+    },
+    {
+      "type": "text",
+      "text": "I percorsi hanno lo stesso ordine nei due grafici? Citare almeno due valori a sostegno della risposta."
+    },
+    {
+      "type": "text",
+      "text": "______________________________"
+    },
+    {
+      "type": "text",
+      "text": "______________________________"
+    },
+    {
+      "type": "text",
+      "text": "______________________________"
+    },
+    {
+      "type": "break"
+    },
+    {
+      "type": "heading",
+      "text": "7  Interrogare i risultati"
+    },
+    {
+      "type": "text",
+      "text": "1. Durante il moto a velocità costante, la risultante è nulla. Questo significa che non agiscono forze? E che ogni forza compie lavoro nullo?"
+    },
+    {
+      "type": "text",
+      "text": "______________________________"
+    },
+    {
+      "type": "text",
+      "text": "______________________________"
+    },
+    {
+      "type": "text",
+      "text": "______________________________"
+    },
+    {
+      "type": "text",
+      "text": "2. Nella salita sulla rampa, quale segno ha il lavoro della trazione? E quello del peso e dell’attrito? La normale compie lavoro?"
+    },
+    {
+      "type": "text",
+      "text": "______________________________"
+    },
+    {
+      "type": "text",
+      "text": "______________________________"
+    },
+    {
+      "type": "text",
+      "text": "______________________________"
+    },
+    {
+      "type": "text",
+      "text": "3. Il dinamometro tira il blocco e il blocco tira il dinamometro. Perché queste due forze non si cancellano nel diagramma delle forze sul solo blocco?"
+    },
+    {
+      "type": "text",
+      "text": "______________________________"
+    },
+    {
+      "type": "text",
+      "text": "______________________________"
+    },
+    {
+      "type": "text",
+      "text": "______________________________"
+    },
+    {
+      "type": "text",
+      "text": "4. Se partenza e arrivo sono da fermo, quanto vale la variazione di energia cinetica? Quale bilancio proponete tra lavoro della trazione, energia potenziale e dissipazione?"
+    },
+    {
+      "type": "text",
+      "text": "______________________________"
+    },
+    {
+      "type": "text",
+      "text": "______________________________"
+    },
+    {
+      "type": "text",
+      "text": "______________________________"
+    },
+    {
+      "type": "break"
+    },
+    {
+      "type": "heading",
+      "text": "8  Il rapporto finale"
+    },
+    {
+      "type": "text",
+      "text": "Riesaminate le testimonianze. Per ciascuna indicate se è sostenuta, smentita oppure valida solo a certe condizioni."
+    },
+    {
+      "type": "text",
+      "text": "Operatore A: meno forza significa meno lavoro?"
+    },
+    {
+      "type": "text",
+      "text": "______________________________"
+    },
+    {
+      "type": "text",
+      "text": "______________________________"
+    },
+    {
+      "type": "text",
+      "text": "______________________________"
+    },
+    {
+      "type": "text",
+      "text": "Operatore B: la stessa altezza garantisce sempre lo stesso lavoro della trazione?"
+    },
+    {
+      "type": "text",
+      "text": "______________________________"
+    },
+    {
+      "type": "text",
+      "text": "______________________________"
+    },
+    {
+      "type": "text",
+      "text": "______________________________"
+    },
+    {
+      "type": "text",
+      "text": "Operatore C: quali prove avete sul ruolo dell’attrito?"
+    },
+    {
+      "type": "text",
+      "text": "______________________________"
+    },
+    {
+      "type": "text",
+      "text": "______________________________"
+    },
+    {
+      "type": "text",
+      "text": "______________________________"
+    },
+    {
+      "type": "text",
+      "text": "Il verdetto del gruppo: citate un confronto numerico, una spiegazione fisica e un limite dell’indagine."
+    },
+    {
+      "type": "text",
+      "text": "______________________________"
+    },
+    {
+      "type": "text",
+      "text": "______________________________"
+    },
+    {
+      "type": "text",
+      "text": "______________________________"
+    },
+    {
+      "type": "text",
+      "text": "______________________________"
+    },
+    {
+      "type": "text",
+      "text": "Prima della consegna: unità, medie, prodotti forza × distanza, assi dei grafici e conclusione coerente con i dati."
+    }
+  ],
+  "teacher": [
+    {
+      "type": "heading",
+      "text": "Obiettivi e organizzazione"
+    },
+    {
+      "type": "text",
+      "text": "CSI-008 - La rampa del mistero\nFisica applicata per studenti di infermieristica.\nGruppi di 3-4; durata proposta 60-75 minuti."
+    },
+    {
+      "type": "text",
+      "text": "Il problema distingue forza applicata, risultante e lavoro. Collega equilibrio traslazionale, terza legge, attrito, lavoro, energia cinetica e potenziale. Il contesto è un magazzino; l’esperimento usa un piccolo carico da banco."
+    },
+    {
+      "type": "heading",
+      "text": "Preparazione"
+    },
+    {
+      "type": "text",
+      "text": "Usare lo stesso blocco con un carico ben fissato, gancio e filo, dinamometro con risoluzione adeguata, bilancia e due rampe rigide con superficie uguale. Una configurazione iniziale possibile: h circa 10 cm, lunghezze 30 e 60 cm, massa circa 200 g. Provare prima che lo scorrimento sia regolare e le letture distinguibili."
+    },
+    {
+      "type": "text",
+      "text": "Fissare le rampe e verificare la portata del dinamometro. Il centro del blocco deve guadagnare lo stesso dislivello nei tre percorsi; evitare il passaggio sul bordo superiore durante le letture. Segnare il tratto di misura sulla superficie inclinata."
+    },
+    {
+      "type": "text",
+      "text": "Ruoli: trazione, lettura, controllo della regolarità, registrazione. Mantenere per quanto possibile gli stessi ruoli nei confronti."
+    },
+    {
+      "type": "heading",
+      "text": "Tempi indicativi"
+    },
+    {
+      "type": "text",
+      "text": "10 min: scenario e ipotesi. 10 min: forze e montaggio. 20 min: misure. 15 min: calcoli e grafici. 10-20 min: discussione e verdetto."
+    },
+    {
+      "type": "break"
+    },
+    {
+      "type": "heading",
+      "text": "Metodo e qualità delle prove"
+    },
+    {
+      "type": "text",
+      "text": "Misurare la forza nel tratto regolare, non il massimo necessario a iniziare lo scorrimento. Per ogni prova usare tre letture equidistanti; poi ripetere tre volte. La media delle tre medie di prova stima la forza caratteristica del percorso."
+    },
+    {
+      "type": "text",
+      "text": "L = F media × s è appropriato quando la forza resta circa costante sul percorso. Avvio e arresto devono essere brevi e dolci; la forza campionata nel tratto centrale approssima quella della salita. Non pretendere uguaglianze esatte da questa procedura."
+    },
+    {
+      "type": "text",
+      "text": "Se la forza oscilla molto, migliorare guida e superficie oppure aumentare le letture a intervalli spaziali regolari. La media temporale non sostituisce in generale quella rispetto allo spostamento. Sui fogli di gruppo conservare le letture originali."
+    },
+    {
+      "type": "heading",
+      "text": "Variabilità e anomalie"
+    },
+    {
+      "type": "text",
+      "text": "La semidispersione delle tre medie di prova è un indicatore semplice di ripetibilità, non un’incertezza completa né un intervallo di confidenza. Considerare anche risoluzione, zero dello strumento, allineamento del filo e misure di s e h."
+    },
+    {
+      "type": "text",
+      "text": "L - mgh leggermente negativo non dimostra energia prodotta: può segnalare errori, trazione non parallela o una variazione di velocità. Se lo scarto è piccolo rispetto alla qualità delle misure, evitare un verdetto quantitativo netto."
+    },
+    {
+      "type": "text",
+      "text": "Non correggere i dati per farli coincidere con l’esempio della guida. Se le differenze non sono distinguibili, riportare il limite e proporre una misura migliore."
+    },
+    {
+      "type": "break"
+    },
+    {
+      "type": "heading",
+      "text": "Leggere il caso con Newton"
+    },
+    {
+      "type": "text",
+      "text": "Sul blocco trascinato in salita agiscono peso, normale, trazione e attrito dinamico. Con filo parallelo al piano, senza accelerazione perpendicolare: N = mg cos θ. L’attrito è diretto lungo il piano verso il basso."
+    },
+    {
+      "type": "text",
+      "text": "Lungo la salita: F - mg sin θ - f = ma. Nel moto regolare a circa zero, F = mg sin θ + f. Una risultante nulla non richiede che ciascuna forza sia nulla."
+    },
+    {
+      "type": "text",
+      "text": "Il peso e la normale non sono una coppia azione-reazione. La forza del dinamometro sul blocco e quella del blocco sul dinamometro agiscono su corpi diversi: non si sommano nel diagramma del solo blocco."
+    },
+    {
+      "type": "heading",
+      "text": "Il ruolo dell’attrito"
+    },
+    {
+      "type": "text",
+      "text": "Nel modello di attrito dinamico f = μd N. L’attrito statico, invece, si adatta fino al limite fs,max = μs N: il valore limite non va attribuito a ogni situazione di quiete."
+    },
+    {
+      "type": "text",
+      "text": "Per rampa rettilinea di lunghezza s e altezza h: sin θ = h/s. Con μd uguale sulle due superfici, F = mg[h/s + μd cos θ]. Nel confronto reale verificare con i dati quale rampa richiede meno forza; non assumerlo per qualunque inclinazione o attrito."
+    },
+    {
+      "type": "heading",
+      "text": "Domande di rilancio"
+    },
+    {
+      "type": "text",
+      "text": "Se F e attrito fossero entrambi zero, il blocco resterebbe in moto uniforme sulla rampa? No: resta la componente del peso. Se il blocco accelera, si può ancora porre la somma delle forze uguale a zero? No."
+    },
+    {
+      "type": "break"
+    },
+    {
+      "type": "heading",
+      "text": "Il bilancio energetico"
+    },
+    {
+      "type": "text",
+      "text": "Durante la salita: lavoro della trazione positivo, del peso negativo, dell’attrito negativo. Il lavoro della normale è nullo perché la normale è perpendicolare allo spostamento su un piano fermo."
+    },
+    {
+      "type": "text",
+      "text": "Teorema dell’energia cinetica:\nL trazione + L peso + L attrito = ΔK\nL peso = -mgh\nL attrito = -E dissipata"
+    },
+    {
+      "type": "text",
+      "text": "Se la velocità finale coincide con quella iniziale, ΔK = 0 e L trazione = mgh + E dissipata. Il lavoro totale delle forze è zero; il lavoro della trazione non lo è."
+    },
+    {
+      "type": "text",
+      "text": "Senza attrito il lavoro della trazione è mgh per tutti i percorsi. Una forza minore è compensata da una distanza maggiore. Con attrito dinamico costante, E dissipata = μd mg cos θ × s = μd mg × radice di (s² - h²)."
+    },
+    {
+      "type": "text",
+      "text": "A parità di massa, h e μd, la rampa più lunga dissipa più energia nel modello. L’energia totale non scompare: l’energia meccanica trasferita in eccesso aumenta l’energia interna di blocco e superficie."
+    },
+    {
+      "type": "heading",
+      "text": "Verdetto sulle testimonianze"
+    },
+    {
+      "type": "text",
+      "text": "A: il passaggio «meno forza, quindi meno lavoro» non è valido; bisogna considerare anche la distanza.\nB: corretto nel modello senza attrito con ΔK = 0, non come affermazione universale sul lavoro della trazione.\nC: coerente con il ruolo dell’attrito; nel confronto sperimentale richiede dati e condizioni controllate."
+    },
+    {
+      "type": "text",
+      "text": "Non equiparare lavoro sul carico, consumo metabolico e sensazione di fatica. La potenza può essere un’estensione, ma non è misurata nell’attività base."
+    },
+    {
+      "type": "break"
+    },
+    {
+      "type": "heading",
+      "text": "Esempio e criteri di valutazione"
+    },
+    {
+      "type": "text",
+      "text": "Esempio numerico simulato, solo per il docente: non è un risultato sperimentale atteso da imporre ai gruppi. Si assume moto quasi uniforme, m = 0,20 kg, g = 10 m/s², h = 0,10 m e μd = 0,20 sulle due rampe."
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "Percorso",
+          "s (m)",
+          "F (N)",
+          "L (J)"
+        ],
+        [
+          "Verticale",
+          "0,10",
+          "2,00",
+          "0,200"
+        ],
+        [
+          "Corta",
+          "0,30",
+          "1,04",
+          "0,313"
+        ],
+        [
+          "Lunga",
+          "0,60",
+          "0,73",
+          "0,437"
+        ]
+      ],
+      "widths": [
+        0.31,
+        0.23,
+        0.23,
+        0.23
+      ]
+    },
+    {
+      "type": "text",
+      "text": "Valori arrotondati separatamente dal modello: F corta = 1,0438 N e F lunga = 0,7277 N. In tutti i casi ΔU = 0,200 J. Dissipazione sulle rampe: circa 0,113 J e 0,237 J. Il sollevamento verticale ideale non include attriti del dispositivo."
+    },
+    {
+      "type": "text",
+      "text": "Il grafico delle forze scende da verticale a corta a lunga; quello dei lavori sale. È il contrasto che permette di discutere l’inferenza dell’operatore A."
+    },
+    {
+      "type": "heading",
+      "text": "Valutazione proposta"
+    },
+    {
+      "type": "text",
+      "text": "Verificare: forze e corpi correttamente identificati; confronto controllato e nove prove documentate; unità e calcoli coerenti; due grafici leggibili; distinzione tra lavoro della trazione e lavoro totale; verdetto con numeri e limiti."
+    },
+    {
+      "type": "heading",
+      "text": "Riferimenti alle lezioni"
+    },
+    {
+      "type": "text",
+      "text": "Anna Vignati, Fisica Applicata, Infermieristica Asti, a.a. 2025-26.\n03_leggi_Newton_V25-26.pdf: pp. PDF 16, 19-29, 36-41.\n4_Lavoro_Energia_V_25-26.pdf: pp. PDF 9, 12-20, 24, 30-31, 37 e 48.\nScenario, procedura, tempi ed esempio numerico sono proposte didattiche per questo caso."
+    }
+  ],
+  "poster": [
+    [
+      "Il caso",
+      "Una cassetta deve raggiungere un ripiano. Due rampe arrivano alla stessa altezza: una corta e ripida, l’altra lunga e dolce."
+    ],
+    [
+      "Le testimonianze",
+      "A: «Meno forza significa meno lavoro».\nB: «Alla stessa altezza il lavoro è sempre uguale».\nC: «Conta anche l’attrito»."
+    ],
+    [
+      "La sfida",
+      "Chi ha ragione? Quali condizioni rendono valida una spiegazione? Il verdetto deve basarsi sulle misure."
+    ],
+    [
+      "Le prove",
+      "Stesso carico, stesso dislivello. Confrontate sollevamento verticale e due rampe; misurate la forza in tre prove per percorso."
+    ],
+    [
+      "La missione",
+      "Disegnate le forze. Calcolate il lavoro e l’aumento di energia potenziale. Costruite due grafici e interrogate le testimonianze."
+    ],
+    [
+      "Il banco di indagine",
+      "Blocco con carico fissato, due rampe, dinamometro, bilancia e righello. Gruppi di 3-4 persone; 60-75 minuti. Un modello da banco per studiare forze ed energia."
+    ]
+  ]
+}
