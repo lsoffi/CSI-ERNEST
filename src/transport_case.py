@@ -1,4 +1,4 @@
-"""CSI-005: package for nursing students, using the repository A5 dossier frame."""
+"""CSI-006: package for nursing students, using the repository A5 dossier frame."""
 from pathlib import Path
 import json,sys
 from xml.sax.saxutils import escape
@@ -81,8 +81,13 @@ def render(case,path,kind,root):
   import tempfile
   from pypdf import PdfReader,PdfWriter
   class Cover(DossierPdf):
+   def draw_wrapped(self,text,x,y,w,size=8,leading=10,font='Helvetica'):
+    if text==case['title']:
+     text='Trasporto sotto esame:\nquanto conta l’accelerazione?'
+     size,leading=18,20
+    return super().draw_wrapped(text,x,y,w,size,leading,font)
    def cover_mystery(self,case,x,y,w,h):
-    y+=10*mm;h=90*mm
+    y-=1*mm;h=80*mm
     self.box(x,y,w,h)
     self.c.setFillColor(BLUE);self.c.setFont('Helvetica-Bold',9);self.c.drawString(x+3*mm,y-5*mm,'Scenario')
     st=ParagraphStyle('covertext',fontName='Helvetica',fontSize=7.7,leading=8.9,textColor=BLUE)
@@ -107,8 +112,8 @@ def poster(case,path,root):
   st=ParagraphStyle('poster',fontName='Helvetica-Bold' if bold else 'Helvetica',fontSize=size,leading=size*1.25,textColor=BLUE)
   pp=p(t,st);_,hh=pp.wrap(w-44*mm,h);pp.drawOn(c,22*mm,y-hh);return y-hh-10*mm
  y=h-22*mm
- y=text('CSI-005 | Classroom Science Investigation',y,19,True)
- y=text('Trasporto del paziente\ne studio del movimento',y,34,True)
+ y=text('CSI-006 | Classroom Science Investigation',y,19,True)
+ y=text(case['title'],y,30,True)
  y=text('Indagine per studenti di infermieristica',y,18)
  for title,body in [('Scenario','Un paziente riferisce nausea durante gli spostamenti. Il percorso verso la sala esami misura circa 100 passi. A accompagna il paziente alla sala esami, B lo riporta nella stanza. Chi rispetta la regola?'),('Il banco di indagine','Metro da 5 m, fogli a quadretti, matite, righello e calcolatrice. Gruppi fino a 10 persone. Lavoro su carta e brevi misure del passo; nessuna prova di trasporto su persone.'),('La missione','Misurate cinque passi per persona, tre volte. Stimate il percorso. Confrontate velocità e accelerazioni, disegnate i primi 10 secondi e il moto completo. Individuate chi rispetta la regola.'),('Gli indizi','A: da fermo a 72 m/min in 3 s; frenata in 3 s.\nB: da fermo a 4,5 km/h in 5 s; frenata in 5 s.\nTra le due fasi, velocità costante. Le variazioni sono uniformi.'),('La regola del caso','Accelerazione in valore assoluto non superiore a 0,30 m/s². È una soglia inventata per il gioco, non un limite clinico.'),('La domanda finale','Si può essere in movimento con accelerazione nulla? La risposta deve essere sostenuta dalle vostre prove.')]:
   y=text(title,y,18,True);y=text(body,y,15)
@@ -116,8 +121,8 @@ def poster(case,path,root):
  c.drawImage(str(root/'assets/eu-funded-logo.png'),22*mm,7*mm,width=48*mm,height=13*mm,preserveAspectRatio=True,mask='auto');c.save()
 def generate(input_path,output,root):
  case=json.loads(Path(input_path).read_text());out=Path(output);out.mkdir(parents=True,exist_ok=True)
- for kind,suffix in [('student','student'),('teacher','teacher-guide')]:render(case,out/f'csi-005-trasporto-del-paziente-{suffix}.pdf',kind,Path(root))
- poster(case,out/'csi-005-poster-a3.pdf',Path(root))
+ for kind,suffix in [('student','student'),('teacher','teacher-guide')]:render(case,out/f'csi-006-trasporto-sotto-esame-{suffix}.pdf',kind,Path(root))
+ poster(case,out/'csi-006-poster-a3.pdf',Path(root))
 if __name__=='__main__':
  import argparse
  a=argparse.ArgumentParser();a.add_argument('--input',required=True);a.add_argument('--output',required=True);a.add_argument('--root',default=str(Path(__file__).resolve().parents[1]));v=a.parse_args();generate(v.input,v.output,v.root)
