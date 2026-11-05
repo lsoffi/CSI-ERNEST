@@ -1,0 +1,682 @@
+{
+  "case_id": "CSI-009",
+  "title": "Una scatola da sistemare",
+  "mystery": "Tre infermieri devono sollevare una scatola di garze sterili e spostarla su un banco in parte coperto da un asciugamano. Anna, Mario e Sara danno tre spiegazioni diverse di ciò che succede.",
+  "story_intro": "Una bilancia, un dinamometro e due tratti segnati sul banco: quali misure servono per distinguere massa, peso, forza di trascinamento e lavoro? Prima di misurare, registrate le vostre ipotesi. Alla fine, tornate alle tre testimonianze e motivate ogni verdetto con i dati.",
+  "student": [
+    {
+      "type": "heading",
+      "text": "LA SITUAZIONE PROBLEMA"
+    },
+    {
+      "type": "text",
+      "text": "Tre infermieri devono sollevare una scatola di confezioni di garze sterili e spostarla sul banco, in parte coperto da un asciugamano."
+    },
+    {
+      "type": "heading",
+      "text": "1  Massa e peso sono la stessa cosa?"
+    },
+    {
+      "type": "text",
+      "text": "Anna dice: «La scatola ha una massa di 1 kg, quindi anche il suo peso è 1 kg»."
+    },
+    {
+      "type": "heading",
+      "text": "2  Stesso peso stessa forza per trascinare?"
+    },
+    {
+      "type": "text",
+      "text": "Mario dice: «Anche se il peso della scatola non cambia, la forza necessaria per trascinarla a velocità costante può cambiare passando dal banco liscio all’asciugamano»."
+    },
+    {
+      "type": "heading",
+      "text": "3  Stessa forza stesso lavoro?"
+    },
+    {
+      "type": "text",
+      "text": "Sara dice: «Se esercito la stessa forza, compio lo stesso lavoro trascinando la scatola per 20 cm oppure per 40 cm»."
+    },
+    {
+      "type": "text",
+      "text": "Verificate le tre affermazioni con un modello da banco e chiudete il caso usando le vostre misure."
+    },
+    {
+      "type": "break"
+    },
+    {
+      "type": "heading",
+      "text": "1  PRIMA DI MISURARE"
+    },
+    {
+      "type": "text",
+      "text": "A intuito, le affermazioni di Anna, Mario e Sara sono vere o false? Segnate una scelta per ciascuna e motivate la risposta. Non occorre conoscere già le formule."
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "Affermazione",
+          "Vero",
+          "Falso",
+          "Perché?"
+        ],
+        [
+          "Anna",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Mario",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Sara",
+          "",
+          "",
+          ""
+        ]
+      ],
+      "widths": [
+        0.18,
+        0.12,
+        0.12,
+        0.58
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "MATERIALI PER GRUPPO"
+    },
+    {
+      "type": "text",
+      "text": "• Dinamometro e bilancia."
+    },
+    {
+      "type": "text",
+      "text": "• Oggetti diversi da pesare e da usare come carico."
+    },
+    {
+      "type": "text",
+      "text": "• Banco con superficie liscia e asciugamano."
+    },
+    {
+      "type": "text",
+      "text": "• Righello o metro e nastro adesivo."
+    },
+    {
+      "type": "text",
+      "text": "• Foglio a quadretti, matita e calcolatrice."
+    },
+    {
+      "type": "heading",
+      "text": "PREPARARE IL BANCO"
+    },
+    {
+      "type": "text",
+      "text": "Controllate lo zero degli strumenti e leggete la forza in newton. Usate carichi entro la portata della bilancia e del dinamometro. Fissate il carico e l’asciugamano, lasciando libero il percorso."
+    },
+    {
+      "type": "text",
+      "text": "Per confrontare le prove, cambiate una sola condizione alla volta. Durante il trascinamento tirate orizzontalmente e mantenete una velocità lenta e circa costante."
+    },
+    {
+      "type": "break"
+    },
+    {
+      "type": "heading",
+      "text": "2  MASSA E PESO"
+    },
+    {
+      "type": "text",
+      "text": "1. Misurate con la bilancia la massa della scatola con il suo contenuto. Convertite il valore in chilogrammi."
+    },
+    {
+      "type": "text",
+      "text": "2. Appendete la stessa scatola al dinamometro: quando è ferma e non tocca il banco, leggete il peso in newton."
+    },
+    {
+      "type": "text",
+      "text": "3. Ripetete con almeno tre carichi diversi. Calcolate ogni volta il rapporto fra peso e massa, senza usare ancora una formula che li colleghi."
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "Carico",
+          "Massa m (kg)",
+          "Peso P (N)",
+          "Rapporto P/m (N/kg)"
+        ],
+        [
+          "1",
+          "",
+          "",
+          ""
+        ],
+        [
+          "2",
+          "",
+          "",
+          ""
+        ],
+        [
+          "3",
+          "",
+          "",
+          ""
+        ]
+      ],
+      "widths": [
+        0.25,
+        0.25,
+        0.25,
+        0.25
+      ]
+    },
+    {
+      "type": "text",
+      "text": "Come cambia il peso quando aumenta la massa?"
+    },
+    {
+      "type": "text",
+      "text": "________________________________________________________________________"
+    },
+    {
+      "type": "text",
+      "text": "________________________________________________________________________"
+    },
+    {
+      "type": "text",
+      "text": "Che cosa osservate dei rapporti P/m? Quale valore e quale unità di misura ottenete?"
+    },
+    {
+      "type": "text",
+      "text": "________________________________________________________________________"
+    },
+    {
+      "type": "text",
+      "text": "________________________________________________________________________"
+    },
+    {
+      "type": "break"
+    },
+    {
+      "type": "text",
+      "text": "Grafico: usate la griglia qui sotto. Riportate la massa sull’asse orizzontale e il peso su quello verticale. Scegliete le scale e indicate grandezze e unità."
+    },
+    {
+      "type": "sketch",
+      "height": 55
+    },
+    {
+      "type": "text",
+      "text": "Quale andamento osservate? Scrivete una relazione che descriva i dati."
+    },
+    {
+      "type": "text",
+      "text": "________________________________________________________________________"
+    },
+    {
+      "type": "text",
+      "text": "________________________________________________________________________"
+    },
+    {
+      "type": "text",
+      "text": "Alla luce delle misure, che cosa rispondete ad Anna?"
+    },
+    {
+      "type": "text",
+      "text": "________________________________________________________________________"
+    },
+    {
+      "type": "text",
+      "text": "________________________________________________________________________"
+    },
+    {
+      "type": "break"
+    },
+    {
+      "type": "heading",
+      "text": "3  TRASCINARE SU SUPERFICI DIVERSE"
+    },
+    {
+      "type": "text",
+      "text": "1. Trascinate la scatola sul banco liscio. Leggete la forza durante il moto lento e circa uniforme, escludendo il picco iniziale. Ripetete tre volte."
+    },
+    {
+      "type": "text",
+      "text": "2. Ripetete sull’asciugamano con lo stesso oggetto."
+    },
+    {
+      "type": "text",
+      "text": "3. Raddoppiate la massa totale, verificandola con la bilancia. Ripetete sulle due superfici, usando la stessa faccia di appoggio e tirando sempre orizzontalmente."
+    },
+    {
+      "type": "text",
+      "text": "Prima delle prove: prevedete una forza diversa sulle due superfici? E con massa doppia?"
+    },
+    {
+      "type": "text",
+      "text": "_________"
+    },
+    {
+      "type": "break"
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "Superficie",
+          "Massa totale (kg)",
+          "Forza 1 (N)",
+          "Forza 2 (N)",
+          "Forza 3 (N)",
+          "Forza media (N)"
+        ],
+        [
+          "Banco",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Banco massa doppia",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Asciugamano",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Asciugamano massa doppia",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ]
+      ],
+      "widths": [
+        0.24,
+        0.16,
+        0.14,
+        0.14,
+        0.14,
+        0.18
+      ]
+    },
+    {
+      "type": "text",
+      "text": "Calcolate la forza media delle tre prove per ogni condizione."
+    },
+    {
+      "type": "text",
+      "text": "A parità di massa, che cosa cambia passando dal banco all’asciugamano?"
+    },
+    {
+      "type": "text",
+      "text": "________________________________________________________________________"
+    },
+    {
+      "type": "text",
+      "text": "________________________________________________________________________"
+    },
+    {
+      "type": "text",
+      "text": "Sulla stessa superficie, raddoppiando la massa la forza raddoppia? Confrontate i valori misurati."
+    },
+    {
+      "type": "text",
+      "text": "________________________________________________________________________"
+    },
+    {
+      "type": "text",
+      "text": "________________________________________________________________________"
+    },
+    {
+      "type": "text",
+      "text": "Quali risultati sostengono o smentiscono l’affermazione di Mario?"
+    },
+    {
+      "type": "text",
+      "text": "________________________________________________________________________"
+    },
+    {
+      "type": "break"
+    },
+    {
+      "type": "heading",
+      "text": "4  STESSA FORZA STESSO LAVORO"
+    },
+    {
+      "type": "text",
+      "text": "Mantenete uguali il carico e la superficie. Segnate sul banco due spostamenti della scatola: 20 cm e 40 cm. Lasciate un breve tratto prima della partenza per avviare il movimento."
+    },
+    {
+      "type": "text",
+      "text": "Trascinate orizzontalmente a velocità lenta e circa costante. Leggete la forza durante il tratto segnato; ripetete tre volte e calcolate la media per ciascun percorso."
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "Spostamento",
+          "Forza 1 (N)",
+          "Forza 2 (N)",
+          "Forza 3 (N)",
+          "Forza media (N)"
+        ],
+        [
+          "20 cm",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "40 cm",
+          "",
+          "",
+          "",
+          ""
+        ]
+      ],
+      "widths": [
+        0.2,
+        0.2,
+        0.2,
+        0.2,
+        0.2
+      ]
+    },
+    {
+      "type": "text",
+      "text": "La forza cambia passando da 20 cm a 40 cm? Che cosa cambia fra le due operazioni?"
+    },
+    {
+      "type": "text",
+      "text": "________________________________________________________________________"
+    },
+    {
+      "type": "text",
+      "text": "________________________________________________________________________"
+    },
+    {
+      "type": "text",
+      "text": "Per descrivere l’intera operazione basta conoscere la forza? Perché?"
+    },
+    {
+      "type": "text",
+      "text": "________________________________________________________________________"
+    },
+    {
+      "type": "text",
+      "text": "________________________________________________________________________"
+    },
+    {
+      "type": "break"
+    },
+    {
+      "type": "heading",
+      "text": "INTRODUCIAMO IL LAVORO"
+    },
+    {
+      "type": "text",
+      "text": "Per una forza costante, parallela e concorde allo spostamento, il lavoro è il prodotto della forza per lo spostamento:"
+    },
+    {
+      "type": "text",
+      "text": "L = F × s"
+    },
+    {
+      "type": "text",
+      "text": "Con F in newton e s in metri, L si misura in joule (J). Usate la forza media per stimare il lavoro della trazione nei due percorsi."
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "Percorso",
+          "Forza media F (N)",
+          "Spostamento s (m)",
+          "Lavoro L (J)"
+        ],
+        [
+          "20 cm",
+          "",
+          "0,20",
+          ""
+        ],
+        [
+          "40 cm",
+          "",
+          "0,40",
+          ""
+        ]
+      ],
+      "widths": [
+        0.25,
+        0.25,
+        0.25,
+        0.25
+      ]
+    },
+    {
+      "type": "text",
+      "text": "Come cambia il lavoro della trazione quando lo spostamento raddoppia?"
+    },
+    {
+      "type": "text",
+      "text": "________________________________________________________________________"
+    },
+    {
+      "type": "text",
+      "text": "Qui calcolate il lavoro della trazione, non il lavoro totale di tutte le forze sulla scatola. La sensazione di fatica non è una misura del lavoro in joule."
+    },
+    {
+      "type": "break"
+    },
+    {
+      "type": "heading",
+      "text": "5  TORNIAMO ALLE TESTIMONIANZE"
+    },
+    {
+      "type": "text",
+      "text": "Rileggete le tre affermazioni della prima pagina e confrontatele con le risposte date prima delle prove. Indicate il giudizio finale e citate le misure che lo sostengono."
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "Persona",
+          "Vero",
+          "Falso",
+          "Prove e spiegazione"
+        ],
+        [
+          "Anna",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Mario",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Sara",
+          "",
+          "",
+          ""
+        ]
+      ],
+      "widths": [
+        0.18,
+        0.12,
+        0.12,
+        0.58
+      ]
+    },
+    {
+      "type": "text",
+      "text": "Quali risposte iniziali avete confermato? Quali avete modificato e perché?"
+    },
+    {
+      "type": "text",
+      "text": "________________________________________________________________________"
+    },
+    {
+      "type": "text",
+      "text": "________________________________________________________________________"
+    },
+    {
+      "type": "text",
+      "text": "________________________________________________________________________"
+    },
+    {
+      "type": "heading",
+      "text": "CHIUDERE IL CASO"
+    },
+    {
+      "type": "text",
+      "text": "Scrivete una breve conclusione che distingua massa, peso, forza di trascinamento e lavoro. Usate almeno un confronto numerico ricavato dalle vostre misure."
+    },
+    {
+      "type": "text",
+      "text": "________________________________________________________________________"
+    },
+    {
+      "type": "text",
+      "text": "________________________________________________________________________"
+    },
+    {
+      "type": "text",
+      "text": "________________________________________________________________________"
+    },
+    {
+      "type": "text",
+      "text": "________________________________________________________________________"
+    },
+    {
+      "type": "text",
+      "text": "________________________________________________________________________"
+    },
+    {
+      "type": "text",
+      "text": "________________________________________________________________________"
+    }
+  ],
+  "teacher": [
+    {
+      "type": "heading",
+      "text": "Preparare l’indagine"
+    },
+    {
+      "type": "text",
+      "text": "Obiettivo: far decidere al gruppo quale misura verifica ciascuna affermazione, prima di introdurre la formula pertinente. Raccogliere i tre giudizi iniziali senza correggerli. A fine attività chiedere quali dati hanno fatto cambiare idea."
+    },
+    {
+      "type": "text",
+      "text": "Organizzazione proposta: gruppi di 3–4, con ruoli a rotazione per trazione, lettura e registrazione. Circa 70 minuti: 10 per ipotesi e banco, 15 per massa e peso, 20 per attrito, 15 per lavoro, 10 per la restituzione."
+    },
+    {
+      "type": "text",
+      "text": "Preparare bilancia, dinamometro, scatola agganciabile, carichi, asciugamano, nastro, metro, foglio a quadretti e calcolatrice. Annotare portata e risoluzione; controllare lo zero nelle orientazioni d’uso. Provare prima il carico doppio. Fissare i pesi, tenere la scatola sospesa vicino al banco e lasciare libero il percorso."
+    },
+    {
+      "type": "break"
+    },
+    {
+      "type": "heading",
+      "text": "Anna • Pesare non significa misurare la massa"
+    },
+    {
+      "type": "text",
+      "text": "Far misurare almeno tre masse totali e, per ciascuna, la forza letta con la scatola sospesa ferma. Se tocca il banco, il dinamometro non sostiene tutto il peso. Chiedere: perché un numero letto in grammi non può essere riportato come newton?"
+    },
+    {
+      "type": "text",
+      "text": "Esempio illustrativo, non dati da consegnare: 0,20 kg → 1,96 N; 0,40 kg → 3,92 N; 0,60 kg → 5,88 N. I tre rapporti P/m sono circa 9,8 N/kg. Sulla Terra, P = mg. Nel grafico P contro m la pendenza vale g; ci si aspetta una retta compatibile con il passaggio per l’origine."
+    },
+    {
+      "type": "text",
+      "text": "Verdetto: Anna ha torto. Un corpo di massa 1 kg ha sulla Terra un peso di circa 9,8 N. Se i punti non sono perfettamente allineati discutere zero, oscillazioni, risoluzione e conversione g → kg."
+    },
+    {
+      "type": "break"
+    },
+    {
+      "type": "heading",
+      "text": "Mario • La forza durante il moto"
+    },
+    {
+      "type": "text",
+      "text": "Tenere costanti massa, faccia di appoggio e direzione della trazione per confrontare banco e tessuto. Per l’effetto della massa confrontare invece la stessa superficie. Per ciascuna delle quattro condizioni fare tre letture nel tratto uniforme: la media è la somma delle tre divisa per tre."
+    },
+    {
+      "type": "text",
+      "text": "Il picco al distacco non è la forza di attrito durante lo scorrimento. A velocità costante la risultante orizzontale è circa nulla: la trazione equilibra l’attrito dinamico. Per trazione orizzontale sul banco, N ≈ mg; nel modello F ≈ coefficiente di attrito × N. Il coefficiente dipende dalle superfici a contatto."
+    },
+    {
+      "type": "text",
+      "text": "Verdetto: Mario ha ragione a dire che la forza può cambiare. Esempio: per la stessa massa, 0,8 N sul banco e 1,3 N sul tessuto sarebbero compatibili con la sua affermazione. La direzione e l’entità della differenza vanno lette nei dati. Se le letture si sovrappongono, non forzare un verdetto sperimentale: ripetere e discutere la variabilità."
+    },
+    {
+      "type": "text",
+      "text": "Raddoppiare la massa totale può dare una forza circa doppia a parità di superficie; non è una verifica di uguaglianza esatta. Se il rapporto è lontano da 2, controllare l’angolo di trazione, le pieghe del tessuto e la regolarità del moto."
+    },
+    {
+      "type": "break"
+    },
+    {
+      "type": "heading",
+      "text": "Sara • Quanto lavoro compie la trazione?"
+    },
+    {
+      "type": "text",
+      "text": "Usare la stessa massa e la stessa superficie. Avviare il movimento prima del tratto segnato e leggere la forza mentre la scatola scorre. Dai tre valori per percorso calcolare separatamente le medie per 20 e 40 cm."
+    },
+    {
+      "type": "text",
+      "text": "Lavoro della trazione: moltiplicare ciascuna forza media in newton per il suo spostamento in metri. Esempio a forza uguale: 1,5 N × 0,20 m = 0,30 J; 1,5 N × 0,40 m = 0,60 J. Sara ha torto: a parità di forza parallela e concorde, raddoppiare lo spostamento raddoppia il lavoro. Se le medie differiscono, usare entrambe e confrontare i prodotti effettivi."
+    },
+    {
+      "type": "text",
+      "text": "Come può esserci lavoro se la velocità non cambia? La trazione fa lavoro positivo, l’attrito lavoro negativo. Nel modello di moto uniforme il lavoro totale è nullo; peso e reazione del banco non compiono lavoro nello spostamento orizzontale. La fatica percepita non si misura in joule con il dinamometro."
+    },
+    {
+      "type": "break"
+    },
+    {
+      "type": "heading",
+      "text": "Chiudere il caso • Valutare le prove"
+    },
+    {
+      "type": "text",
+      "text": "Per ciascuna testimonianza chiedere: che cosa avete cambiato, che cosa avete tenuto fisso e quale confronto numerico giustifica il giudizio? Una conclusione completa distingue massa (kg), peso e trazione (N), lavoro (J)."
+    },
+    {
+      "type": "text",
+      "text": "Criteri di lettura: controllare conversioni e unità; verificare che il grafico abbia assi, scala e punti; cercare tre ripetizioni per condizione, confronti a parità delle altre variabili e almeno un risultato numerico del gruppo. Valutare la qualità della giustificazione anche quando le misure sono rumorose."
+    },
+    {
+      "type": "text",
+      "text": "Domanda finale: se il dinamometro legge la stessa forza per tutto il tragitto, quale informazione manca ancora per calcolare il lavoro? La distanza percorsa nella direzione della forza."
+    }
+  ]
+}
